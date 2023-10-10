@@ -21,3 +21,10 @@
 a = 2
 b = 4
 a + b
+b - a
+c = a * b
+c
+d = 1630
+e = 145
+print(d + 2)
+d + e
