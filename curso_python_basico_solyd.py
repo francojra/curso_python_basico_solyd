@@ -16,7 +16,7 @@
 ### O Python é usado por grandes empresas nacionais e internacionais como Google, YouTube,
 ### Nasa, Linux, IBM, Apple, Rede Globo, Microsoft, etc.
 
-### Comandos básicos
+### Comandos básicos:
 
 a = 2
 b = 4
@@ -28,3 +28,5 @@ d = 1630
 e = 145
 print(d + 2)
 d + e
+print("Estou estudando Python.")
+print("Estou estudando Python." + "Estou gostando muito do curso.")
