@@ -30,3 +30,5 @@ print(d + 2)
 d + e
 print("Estou estudando Python.")
 print("Estou estudando Python." + "Estou gostando muito do curso.")
+50 / c
+50 * a
