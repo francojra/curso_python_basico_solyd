@@ -62,3 +62,7 @@ print(nome, 'tem', idade, 'anos,', 'é', estado_civil, 'e pesa', peso, 'quilos.'
 
 str(idade) # Converte número inteiro em string
 str(peso) # Converte float em string
+
+name = input('Escreva seu nome aqui: ')
+age = input('Escreva sua idade aqui: ')
+print(name, 'tem', age, 'anos')
