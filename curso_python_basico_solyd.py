@@ -56,3 +56,9 @@ peso = 70.2
 peso
 type(peso) # Número decimal em python é chamado de float
 print(nome, 'tem', idade, 'anos,', 'é', estado_civil, 'e pesa', peso, 'quilos.')
+
+### Fica mais fácil concatenar com vírgula, pois assim não precisa converter os
+### números em strings. Quando tem apenas strings, podemos concatenar com o '+'.
+
+str(idade) # Converte número inteiro em string
+str(peso) # Converte float em string
