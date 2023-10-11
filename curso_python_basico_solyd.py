@@ -90,3 +90,20 @@ numero1 = input('Escreva o primeiro valor: ')
 numero2 = input('Escreva o segundo valor: ')
 resultado = int(numero1) - int(numero2)
 print('O resultado é:', resultado)
+
+'''
+EXERCÍCIO: faça um fómulário que pergunte nome, idade, CPF,
+endereço, altura e telefone. Depois imprima isso em um relatório
+organizado.
+'''
+
+nome = input('Escreva seu nome: ')
+idade = input('Escreva sua idade: ')
+cpf = input('Escreva seu cpf: ')
+endereco = input('Escreva seu endereço: ')
+altura = input('Escreva sua altura: ')
+telefone = input('Escreva seu telefone: ')
+
+print('Seu nome é', nome, ', ela tem', idade, 'anos.', 'O CPF dela é',
+cpf, ', ela mora na', endereco, '. Ela tem', altura, 'de altura', 
+'e seu telefone é', telefone)
