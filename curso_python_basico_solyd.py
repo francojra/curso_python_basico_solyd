@@ -68,3 +68,4 @@ str(peso) # Converte float em string
 name = input('Escreva seu nome aqui: ')
 age = input('Escreva sua idade aqui: ')
 print(name, 'tem', age, 'anos')
+print(type(name), type(age))
