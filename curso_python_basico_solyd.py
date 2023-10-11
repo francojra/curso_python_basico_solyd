@@ -83,10 +83,10 @@ resultado2 = num1 * num2 / num3 * 5
 print(resultado2)
 resultado3 = num1 * num2 / num4 * 5 # Não existe divisão por número 0
 print(resultado3)
-resultado4 = num2 ^ num3 
+resultado4 = num2 ^ num3 # Podemos usar também "**"
 print(resultado4)
 
 numero1 = input('Escreva o primeiro valor: ')
 numero2 = input('Escreva o segundo valor: ')
 resultado = int(numero1) - int(numero2)
-print(resultado)
+print('O resultado é:', resultado)
