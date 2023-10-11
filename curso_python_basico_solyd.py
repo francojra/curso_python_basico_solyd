@@ -68,4 +68,25 @@ str(peso) # Converte float em string
 name = input('Escreva seu nome aqui: ')
 age = input('Escreva sua idade aqui: ')
 print(name, 'tem', age, 'anos')
-print(type(name), type(age))
+print(type(name), type(age)) # Imprime todos como string
+
+### Operações matemáticas
+
+num1 = 54
+num2 = 65
+num3 = 8
+num4 = 0
+
+resultado1 = num1 + num2 / num3 * 5
+print(resultado1)
+resultado2 = num1 * num2 / num3 * 5
+print(resultado2)
+resultado3 = num1 * num2 / num4 * 5 # Não existe divisão por número 0
+print(resultado3)
+resultado4 = num2 ^ num3 
+print(resultado4)
+
+numero1 = input('Escreva o primeiro valor: ')
+numero2 = input('Escreva o segundo valor: ')
+resultado = int(numero1) - int(numero2)
+print(resultado)
