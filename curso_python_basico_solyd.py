@@ -32,3 +32,11 @@ print("Estou estudando Python.")
 print("Estou estudando Python." + "Estou gostando muito do curso.")
 50 / c
 50 * a
+
+### Entrada e saíde de dados: print()
+
+print("Aqui está um texto.") # Imprime um texto ou string
+g = 'g'
+g
+print('Helo World! \n Vamos aprender Python!') # Barra invertida + n pula uma linha
+
