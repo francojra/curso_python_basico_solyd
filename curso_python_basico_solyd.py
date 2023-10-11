@@ -52,3 +52,7 @@ type(idade)
 estado_civil = 'solteira'
 tipo_estado_civil = type(estado_civil)
 tipo_estado_civil
+peso = 70.2
+peso
+type(peso) # Número decimal em python é chamado de float
+print(nome, 'tem', idade, 'anos,', 'é', estado_civil, 'e pesa', peso, 'quilos.')
