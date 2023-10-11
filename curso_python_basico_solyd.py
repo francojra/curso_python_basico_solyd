@@ -39,4 +39,16 @@ print("Aqui está um texto.") # Imprime um texto ou string
 g = 'g'
 g
 print('Helo World! \n Vamos aprender Python!') # Barra invertida + n pula uma linha
+print('Helo World! \t Vamos aprender Python!') # Tab permite aidionar parágrafo
 
+### Variáveis
+
+nome = 'Jeanne' # Variável chamada 'nome' que contem o objeto 'Jeanne'
+nome
+idade = 33 # Não precisa de aspas para número
+idade
+type(nome) # Para saber o tipo de variável
+type(idade)
+estado_civil = 'solteira'
+tipo_estado_civil = type(estado_civil)
+tipo_estado_civil
