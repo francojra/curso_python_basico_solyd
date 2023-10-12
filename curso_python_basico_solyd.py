@@ -175,3 +175,15 @@ elif opcao == '3':
 else:
   print('Nenhuma opção selecionada')
 
+# Uso do not no if e else
+
+if not True: # Nega a afirmação True
+  print('Aceita o if')
+else:
+  print('Aceita o else')
+  
+if True: 
+  print('Aceita o if')
+else:
+  print('Aceita o else')
+  
