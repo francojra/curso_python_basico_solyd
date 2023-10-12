@@ -187,3 +187,18 @@ if True:
 else:
   print('Aceita o else')
   
+'''
+EXERCÍCIO: faça um programa que pergunte a idade, peso e altura de uma pessoa.
+Depois decida se ela está apta ou não para participar do exército. Para entrar
+no exército, a pessoa precisa ter 18 anos ou mais, pesar mais ou igual a 60 kilos 
+e ter mais ou igual a 1.70 de altura.
+'''
+
+idade = input('Qual a sua idade?')
+peso = input('Qual o seu peso?')
+altura = input('Qual a sua altura?')
+
+if idade >= '18'and peso >= '60' and altura >= '1.70':
+  print('Esta pessoa é apta para participar do exército.')
+else:
+  print('Esta pessoa não está apta para participar do exército.')
