@@ -117,12 +117,14 @@ var_falso = False
 
 print(type(var_verdade), type(var_falso)) # Verificar o tipo de variável
 
+if var_verdade == True: # Um '=' é para atribuição de variáveis, dois '=' é para comparação
+  print('var_verdade é verdadeiro.') # Código com identação
 
-
-
-
-
-
+1 == 1 # Resposta é True
+1 == 2 # Resposta é False
+'abacaxi' == 'uva' # Resposta é False
+5 > 9 # Resposta é False
+2 < 7 # Resposta é True
 
 
 
