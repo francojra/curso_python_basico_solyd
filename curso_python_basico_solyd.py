@@ -125,9 +125,11 @@ if var_verdade == True: # Um '=' é para atribuição de variáveis, dois '=' é
 'abacaxi' == 'uva' # Resposta é False
 5 > 9 # Resposta é False
 2 < 7 # Resposta é True
+2 <= 5 # Resposta é True
+2 >= 5 # Resposta é False
 
+# Símbolos usados na comparação: ==, !=, <, >, <=, >= 
 
-
-
-
-
+2 == 2 and 3 == 3 # Resposta é True
+2 == 2 and 5 == 3 # Resposta é False
+2 == 2 or 5 == 3 # Resposta é True
