@@ -168,9 +168,9 @@ opcao = input('Escreva o número do combo promocional:')
 
 if opcao == '1':
     print('Big cheddar')
-if opcao == '2':
+elif opcao == '2':
   print('Big Tasty')
-if opcao == '3':
+elif opcao == '3':
   print('Big bacon')
 else:
   print('Nenhuma opção selecionada')
