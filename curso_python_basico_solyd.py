@@ -151,3 +151,13 @@ if a > b:
     print('O a é maior do que b.')
 else:
     print('O a não é maior do que b.')
+    
+a = 50
+b = 20
+c = 'abacaxi'
+d = 'abacate'
+
+if a > b and c == d: # No and as duas comparações devem estar corretas
+    print('Ambos requisitos estão corretos.')
+else:
+    print('Apenas um ou nenhum dos requisitos estão corretos')
