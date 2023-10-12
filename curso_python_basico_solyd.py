@@ -107,3 +107,25 @@ telefone = input('Escreva seu telefone: ')
 print('Seu nome é', nome, ', ela tem', idade, 'anos.', 'O CPF dela é',
 cpf, ', ela mora na', endereco, '. Ela tem', altura, 'de altura', 
 'e seu telefone é', telefone)
+
+### Operadores lógicos e estruturas de decisões - IF/ELSE
+
+# Dados booleanos: true ou false
+
+var_verdade = True
+var_falso = False
+
+print(type(var_verdade), type(var_falso)) # Verificar o tipo de variável
+
+
+
+
+
+
+
+
+
+
+
+
+
