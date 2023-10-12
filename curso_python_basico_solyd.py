@@ -133,3 +133,21 @@ if var_verdade == True: # Um '=' é para atribuição de variáveis, dois '=' é
 2 == 2 and 3 == 3 # Resposta é True
 2 == 2 and 5 == 3 # Resposta é False
 2 == 2 or 5 == 3 # Resposta é True
+
+num = 5
+if num == 5: 
+    print('O valor é igual a 5.')
+
+if 3 > 2:
+  print('Três é maior do que dois.')
+
+if 3 > 7:
+  print('Três é maior do que dois.') # Nenhuma informação é gerada
+
+a = 2
+b = 20
+
+if a > b:
+    print('O a é maior do que b.')
+else:
+    print('O a não é maior do que b.')
