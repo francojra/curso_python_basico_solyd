@@ -160,4 +160,18 @@ d = 'abacate'
 if a > b and c == d: # No and as duas comparações devem estar corretas
     print('Ambos requisitos estão corretos.')
 else:
-    print('Apenas um ou nenhum dos requisitos estão corretos')
+    print('Apenas um (ou nenhum) dos requisitos está correto.')
+
+print('Combos promocionais: \n 1 = Big cheddar\n 2 = Big Tasty\n 3 = Big bacon')
+
+opcao = input('Escreva o número do combo promocional:')
+
+if opcao == '1':
+    print('Big cheddar')
+if opcao == '2':
+  print('Big Tasty')
+if opcao == '3':
+  print('Big bacon')
+else:
+  print('Nenhuma opção selecionada')
+
