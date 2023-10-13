@@ -234,3 +234,4 @@ print(lista[0:6:5])
 print(lista[-1]) # Extrai o último elemento da lista (a lógica é de traz para frente)
 print(lista[-6]) # Extrai o primeiro elemento da lista
 print(lista[-5]) # Extrai o segundo elemento da lista
+print(lista[::-1]) # Inclui todos os elementos de traz para frente
