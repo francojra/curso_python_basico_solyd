@@ -205,11 +205,16 @@ else:
   
 # Strings e listas ------------------------------------------------------------------------------------------------------------------------------
 
+frase = 'Oi, tudo bem?'
 
+print(frase)
 
+print(frase[0]) # Estrai a primeira letra (atributo) da frase
 
+print(frase[4]) # Estrai a quinta letra (atributo) da frase
 
+print(frase[3]) # Estrai a quarta letra (atributo) da frase, no caso é um espaço vazio
 
+print(frase[2])
 
-
-
+lista = 
