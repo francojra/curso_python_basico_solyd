@@ -246,3 +246,10 @@ lista.remove(10)
 print(lista)
 lista.remove(7.6)
 print(lista)
+lista.clear() # Limpa toda a lista
+print(lista)
+lista = ['Joao', 'Maria', 'Guilherme', 'Diego', 'Karolina', 'Karen']
+lista.reverse()
+print(lista)
+lista.insert(3, 'Gabrielle') # Insere o novo nome na terceira posição
+print(lista)
