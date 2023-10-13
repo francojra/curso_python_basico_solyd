@@ -4,7 +4,7 @@
 # Data: 09/10/23 ---------------------------------------------------------------------------------------------------------------------------
 # Referência: Curso Solyd ------------------------------------------------------------------------------------------------------------------
 
-# Introdução ao Python
+# Introdução ao Python -------------------------------------------------------------------------------
 
 ### Linguagem surgiu em 1989, é de alto nível e orientada a objetos. É uma das principais
 ### linguagens do mundo, de script e interpretada. Apresenta elementos funcionais com
@@ -16,7 +16,7 @@
 ### O Python é usado por grandes empresas nacionais e internacionais como Google, YouTube,
 ### Nasa, Linux, IBM, Apple, Rede Globo, Microsoft, etc.
 
-### Comandos básicos:
+# Comandos básicos ---------------------------------------------------------------------------------------------
 
 a = 2
 b = 4
@@ -33,7 +33,7 @@ print("Estou estudando Python." + "Estou gostando muito do curso.")
 50 / c
 50 * a
 
-### Entrada e saíde de dados: print()
+# Entrada e saíde de dados: print() -----------------------------------------------------------------------------------------------
 
 print("Aqui está um texto.") # Imprime um texto ou string
 g = 'g'
@@ -41,7 +41,7 @@ g
 print('Helo World! \n Vamos aprender Python!') # Barra invertida + n pula uma linha
 print('Helo World! \t Vamos aprender Python!') # Tab permite aidionar parágrafo
 
-### Variáveis
+# Variáveis -----------------------------------------------------------------------------------------------------
 
 nome = 'Jeanne' # Variável chamada 'nome' que contem o objeto 'Jeanne'
 nome
@@ -63,14 +63,14 @@ print(nome, 'tem', idade, 'anos,', 'é', estado_civil, 'e pesa', peso, 'quilos.'
 str(idade) # Converte número inteiro em string
 str(peso) # Converte float em string
 
-### Criando formulários
+# Criando formulários -----------------------------------------------------------------------------------------------------
 
 name = input('Escreva seu nome aqui: ')
 age = input('Escreva sua idade aqui: ')
 print(name, 'tem', age, 'anos')
 print(type(name), type(age)) # Imprime todos como string
 
-### Operações matemáticas
+# Operações matemáticas ------------------------------------------------------------------------------------------------------------
 
 num1 = 54
 num2 = 65
@@ -108,7 +108,7 @@ print('Seu nome é', nome, ', ela tem', idade, 'anos.', 'O CPF dela é',
 cpf, ', ela mora na', endereco, '. Ela tem', altura, 'de altura', 
 'e seu telefone é', telefone)
 
-### Operadores lógicos e estruturas de decisões - IF/ELSE
+# Operadores lógicos e estruturas de decisões - IF/ELSE -----------------------------------------------------------------------------------------
 
 # Dados booleanos: true ou false
 
@@ -202,3 +202,14 @@ if idade >= '18'and peso >= '60' and altura >= '1.70':
   print('Esta pessoa é apta para participar do exército.')
 else:
   print('Esta pessoa não está apta para participar do exército.')
+  
+# Strings e listas ------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
