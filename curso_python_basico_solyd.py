@@ -235,3 +235,14 @@ print(lista[-1]) # Extrai o último elemento da lista (a lógica é de traz para
 print(lista[-6]) # Extrai o primeiro elemento da lista
 print(lista[-5]) # Extrai o segundo elemento da lista
 print(lista[::-1]) # Inclui todos os elementos de traz para frente
+
+### Adicionar nomes na lista
+
+lista.append('Karolina')
+print(lista)
+lista.append('Karen')
+print(lista)
+lista.remove(10)
+print(lista)
+lista.remove(7.6)
+print(lista)
