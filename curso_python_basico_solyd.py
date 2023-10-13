@@ -207,6 +207,7 @@ else:
 
 frase = 'Oi, tudo bem?'
 print(frase)
+print(type(frase)) # Frase é uma string
 print(frase[0]) # Estrai a primeira letra (atributo) da frase
 print(frase[4]) # Estrai a quinta letra (atributo) da frase
 print(frase[3]) # Estrai a quarta letra (atributo) da frase, no caso é um espaço vazio
@@ -271,3 +272,17 @@ print(len(lista))
 
 frase.lower()
 frase.upper()
+
+### Transformar strings em listas
+
+frase_separada = frase.split(',') # Retorna os elementos separados por vírgula
+print(frase_separada)
+print(type(frase_separada)) # Passa a ser uma lista
+print(frase_separada[1])
+
+frase_separada1 = frase.split(' ') 
+print(frase_separada1)
+print(frase_separada1[2])
+
+frase_nova = frase + ' ' + 'Como vai você?'
+print(frase_nova)
