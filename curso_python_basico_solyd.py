@@ -253,3 +253,21 @@ lista.reverse()
 print(lista)
 lista.insert(3, 'Gabrielle') # Insere o novo nome na terceira posição
 print(lista)
+lista[6] = 'Roberta' # Troca o nome da sexta posição por Roberta
+print(lista)
+lista.count('Diego') # Conta os nomes 'Diego'
+lista.pop() # Retira o último elemento e diz qual o elemento
+print(lista)
+lista.pop() 
+print(lista)
+
+### Verificar quantidade de caracteres das strings e listas
+
+print(len(frase))
+print(len(lista_nomes))
+print(len(lista))
+
+### Passar tudo para minúscula ou maíscula
+
+frase.lower()
+frase.upper()
