@@ -221,10 +221,16 @@ print(lista_nomes)
 print(type(lista_nomes)) # Retorna 'list'
 print(lista_nomes[0]) # Retorna o primeiro atributo da lista, no caso, Joao
 print(lista_nomes[3])
-print(lista_nomes[0:2]) # De zero até dois atributos
-print(lista_nomes[0:3:1]) # Do zero ao terceiro elmento, passando por cada 1
+print(lista_nomes[0:2]) # Imprime os itens 0 e 1 (até dois elementos)
+print(lista_nomes[0:3:1]) # Do zero ao terceiro elemento, passando por cada 1
 
 lista = ['Joao', 'Maria', 'Guilherme', 'Diego', 10, 7.6]
 print(lista[5])
 print(type(lista))
-print(lista[1:6]) # Começa de Maria (elemento 1) até o último (sexto elemento)
+print(lista[1:6]) # Imprime o elemento 1 (Maria) até o sexto elemento da lista
+print(lista[0:6:2])
+print(lista[0:6:3])
+print(lista[0:6:5])
+print(lista[-1]) # Extrai o último elemento da lista (a lógica é de traz para frente)
+print(lista[-6]) # Extrai o primeiro elemento da lista
+print(lista[-5]) # Extrai o segundo elemento da lista
