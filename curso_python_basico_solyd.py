@@ -206,15 +206,25 @@ else:
 # Strings e listas ------------------------------------------------------------------------------------------------------------------------------
 
 frase = 'Oi, tudo bem?'
-
 print(frase)
-
 print(frase[0]) # Estrai a primeira letra (atributo) da frase
-
 print(frase[4]) # Estrai a quinta letra (atributo) da frase
-
 print(frase[3]) # Estrai a quarta letra (atributo) da frase, no caso é um espaço vazio
-
 print(frase[2])
+print(frase[12])
 
-lista = 
+### As listas podem ser coleções de vários tipo de variáveis (inteiros, floats, strings...)
+### Para criar listas, usa-se colchetes.
+
+lista_nomes = ['Joao', 'Maria', 'Guilherme', 'Diego']
+print(lista_nomes)
+print(type(lista_nomes)) # Retorna 'list'
+print(lista_nomes[0]) # Retorna o primeiro atributo da lista, no caso, Joao
+print(lista_nomes[3])
+print(lista_nomes[0:2]) # De zero até dois atributos
+print(lista_nomes[0:3:1]) # Do zero ao terceiro elmento, passando por cada 1
+
+lista = ['Joao', 'Maria', 'Guilherme', 'Diego', 10, 7.6]
+print(lista[5])
+print(type(lista))
+print(lista[1:6]) # Começa de Maria (elemento 1) até o último (sexto elemento)
