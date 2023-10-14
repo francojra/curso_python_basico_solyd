@@ -386,4 +386,23 @@ for fruta in frutas:
   contador += 1 # O mesmo que contador = contador + 1
   
 print(contador)
-  
+
+print(len(frutas))  
+
+### Break: usado para sair da estrutura de repetição
+
+numero = 0
+
+while True:
+  print(numero)
+  if numero == 25:
+    break # Começa do zero somando de um em um e para no valor 25
+  numero += 1
+print('Saiu do While')
+
+'''
+EXERCÍCIO: faça um programa que leia a quantidade de pessoas que serão convidadas 
+para uma festa. Após isso, o programa irá perguntar o nome de todas essas pessoas
+e colocar numa lista de convidados, imprimindo todos os nomes da lista.
+'''
+
