@@ -317,4 +317,19 @@ for i in range(3):
 for i in range(5):
   print(frutas[i]) # Extrai todos os itens da lista
   
-  
+for i in range(len(frutas)): # Caso não saiba o número total de itens da lista
+  print(frutas[i])  
+
+for i in range(len(frutas)):
+  print(frutas[i])  
+  frutas.append('Ok')
+
+print(frutas) 
+
+frutas = ['abacaxi', 'laranja', 'melão', 'abacate', 'melancia']
+
+for i in range(len(frutas)):
+  print(frutas[i])  
+  frutas.insert(3, 'acerola') # Adiciona o nome na terceira posição e para cada item da lista
+
+print(frutas)
