@@ -361,3 +361,8 @@ while i < 7 or i == 7:
   print('Eu paro quando i for igual a 7:', i)
   i = i + 1
 
+while i < 7 and i == 7: # Não ocorrerá nada porque o i não começa igual a 7
+  print('Eu paro quando i for igual a 7:', i)
+  i = i + 1
+  
+  
