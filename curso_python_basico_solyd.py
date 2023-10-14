@@ -365,4 +365,13 @@ while i < 7 and i == 7: # Não ocorrerá nada porque o i não começa igual a 7
   print('Eu paro quando i for igual a 7:', i)
   i = i + 1
   
+### Iteração de números
+
+i = 0
+
+i = i + 10 # O valor será 10
+i = i + 10 # O valor será 20
+i = i + 20 # O valor será 40
+
+print(i)
   
