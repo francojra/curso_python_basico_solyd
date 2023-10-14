@@ -299,10 +299,22 @@ numeros
 
 for numero in numeros:
   print(numero) # Irá imprimir 6 números
+  
+numeros1 = range(1, 30, 2)
+numeros1
 
+for numero in numeros1:
+  print(numero) 
 
+for item in range(0, 100, 1):
+  print(item)
 
+### O último vamor estipulado nunca aparecerá no print.
 
+for i in range(3):
+  print(frutas[i]) # Extrai os 3 primeiros itens da lista
 
-
-
+for i in range(5):
+  print(frutas[i]) # Extrai todos os itens da lista
+  
+  
