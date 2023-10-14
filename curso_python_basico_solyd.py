@@ -435,3 +435,13 @@ minha_lista = ['Guilherme', 'Maria']
 ### os métodos append, remove, etc. Sempre a mesma quantidade de itens. Usa-se parêteses.
 
 minha_tupla = ('Guilerme', 'Maria')
+
+### Dicionários
+
+### Os dicionários apresentam chaves e valores, assim como um dicionário que apresenta
+### cada uma de suas palavras com seus respectivos significados.
+
+### Nesse caso abaixo a chave é o 'nome' e o valor 'Guilherme'.
+
+meu_dicionario = {'nome': 'Guilherme',
+                  'idade': 27}
