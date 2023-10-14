@@ -419,8 +419,19 @@ print(len(convidados))
 for convidado in convidados:
   print(convidado)
 
+# Tuplas, dicionários e conjuntos ---------------------------------------------------------------------------------------------------------------
 
+### Listas (list)
 
+### As listas são mutáveis, elas podem ter itens removidos, substituídos ou adicionados.
+### As listas são ordenadas (cada item tem uma posição) e podem aparesentar diferentes 
+### tipos de elementos. Usa-se colchetes.
 
+minha_lista = ['Guilherme', 'Maria']
 
+### Tuplas (tuple)
 
+### As tuplas não são mutáveis, não pode ter seus elementos modificados. Não existe
+### os métodos append, remove, etc. Sempre a mesma quantidade de itens. Usa-se parêteses.
+
+minha_tupla = ('Guilerme', 'Maria')
