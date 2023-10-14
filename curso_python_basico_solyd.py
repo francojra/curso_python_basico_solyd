@@ -286,3 +286,23 @@ print(frase_separada1[2])
 
 frase_nova = frase + ' ' + 'Como vai você?'
 print(frase_nova)
+
+# Estruturas de laço (WHILE e FOR) --------------------------------------------------------------------------------------------------------------
+
+frutas = ['abacaxi', 'laranja', 'melão', 'abacate', 'melancia']
+
+for fruta in frutas:
+  print(fruta)
+
+numeros = range(6)
+numeros
+
+for numero in numeros:
+  print(numero) # Irá imprimir 6 números
+
+
+
+
+
+
+
