@@ -352,6 +352,7 @@ while i < 10:
   print('i ainda é menor do que 10', i)
   i = i + 1 # Isso impede o loop infinito, chega até o 10
 
+print('Acabou o while')
 
   
   
