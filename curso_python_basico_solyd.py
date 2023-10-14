@@ -370,8 +370,20 @@ while i < 7 and i == 7: # Não ocorrerá nada porque o i não começa igual a 7
 i = 0
 
 i = i + 10 # O valor será 10
-i = i + 10 # O valor será 20
-i = i + 20 # O valor será 40
-
 print(i)
+i = i + 10 # O valor será 20
+print(i)
+i = i + 20 # O valor será 40
+print(i)
+
+### Contador para a lista de frutas
+
+frutas = ['abacaxi', 'laranja', 'melão', 'abacate', 'melancia']
+
+contador = 0 
+
+for fruta in frutas:
+  contador += 1 # O mesmo que contador = contador + 1
+  
+print(contador)
   
