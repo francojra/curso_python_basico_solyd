@@ -289,6 +289,8 @@ print(frase_nova)
 
 # Estruturas de laço (WHILE e FOR) --------------------------------------------------------------------------------------------------------------
 
+### Usando o for
+
 frutas = ['abacaxi', 'laranja', 'melão', 'abacate', 'melancia']
 
 for fruta in frutas:
@@ -333,3 +335,23 @@ for i in range(len(frutas)):
   frutas.insert(3, 'acerola') # Adiciona o nome na terceira posição e para cada item da lista
 
 print(frutas)
+
+### O for para strings
+
+palavras = 'Meu nome é Jeanne'
+palavras
+
+for i in palavras:
+  print(i)
+  
+### Usando o while
+
+i = 2 # Número inicial é 2
+
+while i < 10:
+  print('i ainda é menor do que 10', i)
+  i = i + 1 # Isso impede o loop infinito, chega até o 10
+
+
+  
+  
