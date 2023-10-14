@@ -406,3 +406,21 @@ para uma festa. Após isso, o programa irá perguntar o nome de todas essas pess
 e colocar numa lista de convidados, imprimindo todos os nomes da lista.
 '''
 
+convidados = ['Letícia', 'Rafaela', 'Pedro', 'Daniel', 'Melissa', 'Cassy']
+
+contador = 0
+
+for convidado in convidados:
+  contador +=1
+
+print(contador)
+print(len(convidados))
+
+for convidado in convidados:
+  print(convidado)
+
+
+
+
+
+
