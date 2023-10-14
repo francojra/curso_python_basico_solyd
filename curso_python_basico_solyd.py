@@ -349,10 +349,15 @@ for i in palavras:
 i = 2 # Número inicial é 2
 
 while i < 10:
-  print('i ainda é menor do que 10', i)
+  print('i ainda é menor do que 10:', i)
   i = i + 1 # Isso impede o loop infinito, chega até o 10
 
 print('Acabou o while', i)
 
+while 2 < 10:
+  print('Loop infinito:', i) # Loop infinito, 5 sempre será menor que 10
   
-  
+while i < 7 or i == 7:
+  print('Eu paro quando i for igual a 7:', i)
+  i = i + 1
+
