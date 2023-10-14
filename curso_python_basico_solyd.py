@@ -436,7 +436,7 @@ minha_lista = ['Guilherme', 'Maria']
 
 minha_tupla = ('Guilerme', 'Maria')
 
-### Dicionários
+### Dicionários (dict)
 
 ### Os dicionários apresentam chaves e valores, assim como um dicionário que apresenta
 ### cada uma de suas palavras com seus respectivos significados.
