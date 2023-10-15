@@ -558,7 +558,7 @@ print(type(con))
 for i in con:
   print(i)
   
-### Tuplas com múltiplos valores
+### Múltiplos valores: listas, tuplas e conjuntos na mesma estrutura de dados
 
 tuplas = ((5, 6), (6, 4, 9), (4, 9), 23, (3,8), ({'Vanessa', 'Higor'}))
 print(tuplas)
