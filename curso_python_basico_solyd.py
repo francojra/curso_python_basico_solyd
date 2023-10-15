@@ -434,7 +434,7 @@ minha_lista = ['Guilherme', 'Maria']
 ### As tuplas não são mutáveis, não pode ter seus elementos modificados. Não existe
 ### os métodos append, remove, etc. Sempre a mesma quantidade de itens. Usa-se parêteses.
 
-minha_tupla = ('Guilerme', 'Maria')
+minha_tupla = ('Guilherme', 'Maria')
 
 ### Dicionários (dict)
 
@@ -456,9 +456,28 @@ meu_dicionario = {'nome': 'Guilherme', 'idade': 27}
 
 meu_conjunto = {'Maria', 'Barbara', 'Samanta'}
 
-### Verificandos os tipos de estruturas de dados
+### Verificandos as estruturas de dados
 
 type(minha_lista)
 type(minha_tupla)
 type(meu_dicionario)
 type(meu_conjunto)
+
+minha_tupla[0]
+minha_lista[1]
+meu_conjunto[2] # Como os itens não são ordenados, não é possível dizer a posição do elemento
+meu_dicionario[1]
+meu_dicionario['nome'] # Forma correta de verificar os itens de um dicionário
+
+for i in minha_lista:
+  print(i)
+
+for i in minha_tupla:
+  print(i)
+
+for i in meu_conjunto:
+  print(i)
+
+for i in meu_dicionario:
+  print(i)
+
