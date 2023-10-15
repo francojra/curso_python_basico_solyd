@@ -486,7 +486,7 @@ for i in meu_dicionario:
 minha_tupla[2] = 'Talia'
 minha_tupla[0] = 'Valeria'
 
-meu_dicionario['altura'] = 1.80
+meu_dicionario['altura'] = 1.80 # Em dicionário não usa a posição dos itens
 print(meu_dicionario)
 meu_dicionario['nome'] = 'Alessandra'
 print(meu_dicionario)
@@ -505,6 +505,9 @@ if 'Alessandra' in meu_dicionario: # É necessário informar se é chave ou valo
   
 if 'Alessandra' in meu_dicionario.values(): 
   print('Alessandra está no meu dicionário')  
+  
+if 'idade' in meu_dicionario.keys(): 
+  print('idade está no meu dicionário')  
 
 if 'Samanta' in meu_conjunto:
   print('Samanta está no meu conjunto')
