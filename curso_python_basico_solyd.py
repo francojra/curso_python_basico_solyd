@@ -558,4 +558,15 @@ print(type(con))
 for i in con:
   print(i)
   
+### Tuplas com múltiplos valores
+
+tuplas = ((5, 6), (6, 4, 9), (4, 9), 23, (3,8), ({'Vanessa', 'Higor'}))
+print(tuplas)
+type(tuplas) # O símbolo mais externo representa uma tupla
+
+for i in tuplas:
+  print(i)
   
+exemplo = [(5, 6), (6, 4, 9), (4, 9), 23, (3,8), ({'Vanessa', 'Higor'})]
+print(exemplo)
+type(exemplo) # O símbolo mais externo representa uma lista
