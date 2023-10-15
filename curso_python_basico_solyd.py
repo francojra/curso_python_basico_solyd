@@ -534,3 +534,28 @@ print(meu_dicionario1)
 ### item dentro de uma lista, por ela ser ordenada, o processo será mais demorado, pois
 ### teria que passar posição por posição para procurar o item. Já em um conjunto, por não
 ### ser ordenado, ele procurará diretamente pelo nome do item.
+
+### Tanto os conjuntos como os dicionários permitem uma busca instantênea dos itens.
+
+meu_conjunto.remove('Leia')
+print(meu_conjunto)
+
+### Formas de começar com listas vazias
+
+lista = list([])
+print(lista)
+tupla = tuple(())
+print(tupla)
+dicionario = dict({})
+print(dicionario)
+conjunto = set({})
+print(conjunto)
+
+con = set({'svn', 'fn', 'fokev'})
+print(con)
+print(type(con))
+
+for i in con:
+  print(i)
+  
+  
