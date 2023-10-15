@@ -481,3 +481,12 @@ for i in meu_conjunto:
 for i in meu_dicionario:
   print(i)
 
+### Não ocorre substituições e adições em tuplas
+
+minha_tupla[2] = 'Talia'
+minha_tupla[0] = 'Valeria'
+
+meu_dicionario['altura'] = 1.80
+print(meu_dicionario)
+meu_dicionario['nome'] = 'Alessandra'
+print(meu_dicionario)
