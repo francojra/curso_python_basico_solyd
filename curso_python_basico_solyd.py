@@ -449,9 +449,14 @@ meu_dicionario = {'nome': 'Guilherme', 'idade': 27}
 ### Conjuntos (set)
 
 ### Os conjuntos funcionam como listas, entretanto, são formados com o uso de chaves.
-### 
+### Diferente da lista, no conjunto não pode haver itens repetidos. E também, os itens
+### não são ordenados como ocorre nas listas.
+### Os conjuntos podem ser dinâmicas, podem ser adicionados mais itens, podem
+### haver itens removidos, etc. Apenas as tuplas não são mutáveis.
 
 meu_conjunto = {'Maria', 'Barbara', 'Samanta'}
+
+### Verificandos os tipos de estruturas de dados
 
 type(minha_lista)
 type(minha_tupla)
