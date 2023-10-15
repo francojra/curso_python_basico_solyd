@@ -439,9 +439,21 @@ minha_tupla = ('Guilerme', 'Maria')
 ### Dicionários (dict)
 
 ### Os dicionários apresentam chaves e valores, assim como um dicionário que apresenta
-### cada uma de suas palavras com seus respectivos significados.
+### cada uma de suas palavras com seus respectivos significados. Usa-se as chaves
+### para criar os dicionários.
 
 ### Nesse caso abaixo a chave é o 'nome' e o valor 'Guilherme'.
 
-meu_dicionario = {'nome': 'Guilherme',
-                  'idade': 27}
+meu_dicionario = {'nome': 'Guilherme', 'idade': 27}
+
+### Conjuntos (set)
+
+### Os conjuntos funcionam como listas, entretanto, são formados com o uso de chaves.
+### 
+
+meu_conjunto = {'Maria', 'Barbara', 'Samanta'}
+
+type(minha_lista)
+type(minha_tupla)
+type(meu_dicionario)
+type(meu_conjunto)
