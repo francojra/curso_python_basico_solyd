@@ -490,3 +490,23 @@ meu_dicionario['altura'] = 1.80
 print(meu_dicionario)
 meu_dicionario['nome'] = 'Alessandra'
 print(meu_dicionario)
+
+if 'Gui' in minha_tupla:
+  print('Gui está na minha tupla.')
+  
+if 'Maria' in minha_tupla:
+  print('Maria está na minha tupla.')  
+  
+if 'Guilherme' in meu_dicionario:
+  print('Guilherme está no meu dicionário')
+
+if 'Alessandra' in meu_dicionario: # É necessário informar se é chave ou valor
+  print('Alessandra está no meu dicionário')
+  
+if 'Alessandra' in meu_dicionario.values(): 
+  print('Alessandra está no meu dicionário')  
+
+if 'Samanta' in meu_conjunto:
+  print('Samanta está no meu conjunto')
+  
+  
