@@ -458,7 +458,7 @@ meu_dicionario = {'nome': 'Guilherme', 'idade': 27}
 
 meu_conjunto = {'Maria', 'Barbara', 'Samanta'}
 
-### Verificandos as estruturas de dados
+### Verificando as estruturas de dados
 
 type(minha_lista)
 type(minha_tupla)
@@ -483,8 +483,6 @@ for i in meu_conjunto:
 for i in meu_dicionario:
   print(i)
 
-### Não ocorre substituições e adições em tuplas
-
 minha_tupla[2] = 'Talia'
 minha_tupla[0] = 'Valeria'
 
@@ -494,6 +492,9 @@ meu_dicionario['nome'] = 'Alessandra'
 print(meu_dicionario)
 meu_dicionario['endereco'] = 'Av João das Neves'
 print(meu_dicionario)
+
+meu_conjunto.add('Leia')
+print(meu_conjunto)
 
 if 'Gui' in minha_tupla:
   print('Gui está na minha tupla.')
