@@ -512,4 +512,14 @@ if 'idade' in meu_dicionario.keys():
 if 'Samanta' in meu_conjunto:
   print('Samanta está no meu conjunto')
   
+print(len(meu_dicionario))  
+print(len(meu_conjunto))
+print(len(minha_tupla))
+
+for valores in meu_dicionario.values():
+  print(valores)
+  
+for chaves in meu_dicionario.keys():
+  print(chaves)  
+  
   
