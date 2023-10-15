@@ -529,3 +529,8 @@ for chaves in meu_dicionario.keys():
   
 meu_dicionario1 = meu_dicionario.copy()  
 print(meu_dicionario1)
+
+### Um diferença importante entre o conjunto e a lista é que para procurar um determinado
+### item dentro de uma lista, por ela ser ordenada, o processo será mais demorado, pois
+### teria que passar posição por posição para procurar o item. Já em um conjunto, por não
+### ser ordenado, ele procurará diretamente pelo nome do item.
