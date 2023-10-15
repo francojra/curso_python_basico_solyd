@@ -442,6 +442,8 @@ minha_tupla = ('Guilherme', 'Maria')
 ### cada uma de suas palavras com seus respectivos significados. Usa-se as chaves
 ### para criar os dicionários.
 
+### Os itens dos dicionários não são ordenados.
+
 ### Nesse caso abaixo a chave é o 'nome' e o valor 'Guilherme'.
 
 meu_dicionario = {'nome': 'Guilherme', 'idade': 27}
@@ -490,6 +492,8 @@ meu_dicionario['altura'] = 1.80 # Em dicionário não usa a posição dos itens
 print(meu_dicionario)
 meu_dicionario['nome'] = 'Alessandra'
 print(meu_dicionario)
+meu_dicionario['endereco'] = 'Av João das Neves'
+print(meu_dicionario)
 
 if 'Gui' in minha_tupla:
   print('Gui está na minha tupla.')
@@ -522,4 +526,5 @@ for valores in meu_dicionario.values():
 for chaves in meu_dicionario.keys():
   print(chaves)  
   
-  
+meu_dicionario1 = meu_dicionario.copy()  
+print(meu_dicionario1)
