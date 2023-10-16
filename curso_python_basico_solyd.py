@@ -582,3 +582,12 @@ type(exemplo) # O símbolo mais externo representa uma lista
 
 print('Olá Mundo!')
 print(len('Olá Mundo!'))
+
+### Criando nossas funções com def
+
+def soma(numero1, numero2):
+  resposta = numero1 + numero2
+  return resposta
+
+retorno = soma(78, 45)
+print(retorno)
