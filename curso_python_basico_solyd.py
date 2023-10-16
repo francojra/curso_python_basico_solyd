@@ -619,3 +619,11 @@ def tem_5_letras(palavra):
 tem_5_letras('livro')
 tem_5_letras('ambiente')
 
+def soma_10(num1, num2, num3):
+  if num1 + num2 + num3 == 10:
+    return print('Os três valores somam 10')
+  else:
+    return print('Os três valores não somam 10')
+  
+soma_10(5, 2, 3)
+soma_10(4, 23, 8)
