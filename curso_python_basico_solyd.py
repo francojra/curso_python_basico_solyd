@@ -645,3 +645,16 @@ def menor_numero(num1, num2, num3, num4, num5, num6):
   return resultado
 
 menor_numero(9, 4, 6, 3, 7, 5)
+
+### Adicionar novos objetos a listas
+
+def adicionar_item(nome_lista):
+  res = nome_lista.append('Novo item')
+  return res
+  
+convidados = ['Patrícia', 'Izabel', 'Kelly']
+print(convidados)
+adicionar_item(convidados)  
+print(convidados)
+  
+  
