@@ -596,3 +596,16 @@ type(retorno)
 retorno1 = soma(34.7, 20.8)
 print(retorno1)
 type(retorno1)
+
+def imprime_oi():
+  print('Oi!')
+
+imprime_oi()  
+
+def tem_7_letras(palavra):
+  if len(palavra) == 7:
+    return True
+  else:
+    return False
+
+tem_7_letras('panela')
