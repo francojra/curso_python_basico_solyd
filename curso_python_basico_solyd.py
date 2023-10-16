@@ -591,3 +591,8 @@ def soma(numero1, numero2):
 
 retorno = soma(78, 45)
 print(retorno)
+type(retorno)
+
+retorno1 = soma(34.7, 20.8)
+print(retorno1)
+type(retorno1)
