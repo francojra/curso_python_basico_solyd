@@ -609,3 +609,13 @@ def tem_7_letras(palavra):
     return False
 
 tem_7_letras('panela')
+
+def tem_5_letras(palavra):
+  if len(palavra) == 5:
+    return print('A palavra tem 5 letras')
+  else:
+    return print('A palavra não tem 5 letras')
+
+tem_5_letras('livro')
+tem_5_letras('ambiente')
+
