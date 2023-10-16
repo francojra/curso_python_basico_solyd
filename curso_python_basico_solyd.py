@@ -570,3 +570,10 @@ for i in tuplas:
 exemplo = [(5, 6), (6, 4, 9), (4, 9), 23, (3,8), ({'Vanessa', 'Higor'})]
 print(exemplo)
 type(exemplo) # O símbolo mais externo representa uma lista
+
+# Métodos e funções -----------------------------------------------------------------------------------------------------------------------------
+
+### As funções costumam ser seguidas de parênteses, elas apresentam diversos argumentos
+### que são utilizados para dar mais informações sobre a execução da função e os parâmetros
+### dentro das funções são preenchidos pelo programador, de acordo com o que ele quer verificar
+### da função.
