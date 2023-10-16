@@ -657,4 +657,16 @@ print(convidados)
 adicionar_item(convidados)  
 print(convidados)
   
-  
+def segunda_posicao(lista_de_nomes):
+  res = lista_de_nomes[1]
+  return res
+
+lista_nomes = ['Gabriel', 'Kelita', 'Amélie', 'Pedro']
+print(lista_nomes)
+
+segunda_posicao(lista_nomes)
+
+lista_nomes1 = ['Daniel', 'Fernanda', 'Sergio', 'Felipe']
+print(lista_nomes1)
+
+segunda_posicao(lista_nomes1)
