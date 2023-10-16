@@ -577,3 +577,8 @@ type(exemplo) # O símbolo mais externo representa uma lista
 ### que são utilizados para dar mais informações sobre a execução da função e os parâmetros
 ### dentro das funções são preenchidos pelo programador, de acordo com o que ele quer verificar
 ### da função.
+
+### Podemos usar uma função dentro de outra:
+
+print('Olá Mundo!')
+print(len('Olá Mundo!'))
