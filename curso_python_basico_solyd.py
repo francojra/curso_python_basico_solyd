@@ -627,3 +627,21 @@ def soma_10(num1, num2, num3):
   
 soma_10(5, 2, 3)
 soma_10(4, 23, 8)
+
+'''
+EXERCÍCIO: escreva uma função que recebe um objeto de coleção (lista, tupla, conjunto) e 
+retorna o valor do maior número dentro da coleção. E outra função que retorna o menor
+valor da coleção.
+'''
+
+def maior_numero(num1, num2, num3, num4, num5, num6):
+  resultado = max(num1, num2, num3, num4, num5, num6)
+  return resultado
+
+maior_numero(9, 4, 6, 3, 7, 5)
+
+def menor_numero(num1, num2, num3, num4, num5, num6):
+  resultado = min(num1, num2, num3, num4, num5, num6)
+  return resultado
+
+menor_numero(9, 4, 6, 3, 7, 5)
