@@ -25,3 +25,8 @@
 17. Criando bibliotecas.
 
 # Argumentos de linha de comando -----------------------------------------------------------------------------------
+
+### Passagem de argumentos
+
+### Bibliotecas: são códifos e funções já pre-escritas em python, ao importar a biblioteca estará importante o conjunto
+### de códigos e funções para expandir a potencialidade da programação.
