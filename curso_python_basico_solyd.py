@@ -706,3 +706,8 @@ if argumentos[1] == 'sub':
 ### arg1 = método
 ### arg2 = n1
 ### arg3 = n2
+
+### Na linha de comando nós passamos os 3 argumentos, o nome da função
+### (soma ou sub mais espaço, mais o argumento 2, espaço e argumento 3)
+### Exemplo: python.exe curso_python_basico_solyd.py soma 43 67
+### Então o programa retorna o valor de 43 + 67.
