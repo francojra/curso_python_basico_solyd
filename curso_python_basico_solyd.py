@@ -685,7 +685,8 @@ segunda_posicao(lista_nomes1)
 import sys
 
 argumentos = sys.argv
-print(argumentos) # Fornece o caminho onde está trabalhando o Python
+print(argumentos) # Fornece o caminho onde está trabalhando o Python, ou seja,
+# esse é o argumento 0.
 
 ### Usando o terminal, pedemos adicionar os argumentos na linha de comando
 ### Devemos escrever o nome do programa Python (no meu caso, python.exe + 
@@ -711,3 +712,6 @@ if argumentos[1] == 'sub':
 ### (soma ou sub mais espaço, mais o argumento 2, espaço e argumento 3)
 ### Exemplo: python.exe curso_python_basico_solyd.py soma 43 67
 ### Então o programa retorna o valor de 43 + 67.
+
+soma(45, 87)
+sub(786, 32)
