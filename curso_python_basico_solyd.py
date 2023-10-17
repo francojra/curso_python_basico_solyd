@@ -683,3 +683,26 @@ segunda_posicao(lista_nomes1)
 ### Importar bibliotecas
 
 import sys
+
+argumentos = sys.argv
+print(argumentos) # Fornece o caminho onde está trabalhando o Python
+
+### Usando o terminal, pedemos adicionar os argumentos na linha de comando
+### Devemos escrever o nome do programa Python (no meu caso, python.exe + 
+### o nome do arquivo que está na pasta)
+
+def soma(n1, n2):
+  return n1 + n2
+
+def sub(n1, n2):
+  return n1 - n2
+
+if argumentos[1] == 'soma':
+  resp = soma(float(argumentos[2]), float(argumentos[3]))
+
+if argumentos[1] == 'sub':
+  resp = sub(float(argumentos[2]), float(argumentos[3]))
+  
+### arg1 = método
+### arg2 = n1
+### arg3 = n2
