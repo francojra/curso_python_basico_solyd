@@ -31,3 +31,7 @@
 ### Bibliotecas: são códifos e funções já pre-escritas em python, ao importar a biblioteca estará importante o conjunto
 ### de códigos e funções para expandir a potencialidade da programação. Algumas funções já estão no Python como
 ### len(), print(), sum(), etc., e outras funções estão em bibliotecas.
+
+### Importar bibliotecas
+
+import sys
