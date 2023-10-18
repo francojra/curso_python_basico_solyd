@@ -6,3 +6,6 @@ class Cliente:
       self.salario = salario
 
 ### Aumento no salário:
+
+def aumento(self, ganho):
+    self.salario = salario + ganho # Vai somar o salário com o aumento (ganho)
