@@ -62,4 +62,3 @@ print('Nome:\n', maria.nome,
 '\nEmpresa:\n', maria.empresa,
 '\nSalário:\n', maria.salario)
 
-maria.aumento(2000)
