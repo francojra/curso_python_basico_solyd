@@ -26,3 +26,39 @@ print('Cor:\n', carro_azul.cor,
 '\nNúmero de rodas:\n', carro_azul.rodas,
 '\nMarca:\n', carro_azul.marca)
 
+### Organizando
+
+print('Caminhão Rosa:')
+
+print('Cor:\n', caminhao_rosa.cor, 
+'\nNúmero de rodas:\n', caminhao_rosa.rodas,
+'\nMarca:\n', caminhao_rosa.marca)
+
+print(' ')
+
+print('Carro Azul:')
+
+print('Cor:\n', carro_azul.cor, 
+'\nNúmero de rodas:\n', carro_azul.rodas,
+'\nMarca:\n', carro_azul.marca)
+
+from cliente import Cliente
+
+maria = Cliente('Maria', 30, 'Google', 14000) 
+print(maria)
+print(type(maria)) 
+
+maria.
+
+print(maria.nome)
+print(maria.idade)
+print(maria.empresa)
+print(maria.salario)
+
+print('Cliente Maria:')
+
+print('Nome:\n', maria.nome, 
+'\nIdade:\n', maria.idade,
+'\nEmpresa:\n', maria.empresa,
+'\nSalário:\n', maria.salario)
+

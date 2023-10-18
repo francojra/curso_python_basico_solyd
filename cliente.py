@@ -4,3 +4,5 @@ class Cliente:
       self.idade = idade
       self.empresa = empresa
       self.salario = salario
+
+### Aumento no salário:
