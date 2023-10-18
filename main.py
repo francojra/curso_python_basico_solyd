@@ -1,6 +1,6 @@
 from veiculo import Veiculo
 
-caminhao_rosa = Veiculo('rosa', 6, 'Ford', 10) # Cor, nome da marca e número de rodas
+caminhao_rosa = Veiculo('rosa', 6, 'Ford') # Cor, nome da marca e número de rodas
 print(caminhao_rosa)
 print(type(caminhao_rosa)) # Criou um novo tipo de classe
 
@@ -62,3 +62,11 @@ print('Nome:\n', maria.nome,
 '\nEmpresa:\n', maria.empresa,
 '\nSalário:\n', maria.salario)
 
+maria.aumento(2000)
+print('Salário:\n', maria.salario)
+
+from carro import Carro
+
+carro = Veiculo('lilás', 7, 'Ferrari')
+
+carro.
