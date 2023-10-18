@@ -67,6 +67,14 @@ print('Salário:\n', maria.salario)
 
 from carro import Carro
 
-carro = Veiculo('lilás', 7, 'Ferrari')
+carro_lilas = Carro('lilás', 7, 'Ferrari')
 
-carro.
+print(carro_lilas)
+print(type(carro_lilas))
+
+print('Carro Lilás:')
+
+print('Cor:\n', carro_lilas.cor, 
+'\nNúmero de rodas:\n', carro_lilas.rodas,
+'\nMarca:\n', carro_lilas.marca)
+
