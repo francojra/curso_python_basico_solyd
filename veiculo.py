@@ -5,3 +5,6 @@ class Veiculo:
       self.rodas = rodas
       self.marca = marca
 
+### O método init do python é uma função especial que podemos aplicar para inicializar 
+### uma classe
+
