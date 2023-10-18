@@ -62,7 +62,7 @@ print('Nome:\n', maria.nome,
 '\nEmpresa:\n', maria.empresa,
 '\nSalário:\n', maria.salario)
 
-maria.aumento(2000)
+maria.ganho(3000)
 print('Salário:\n', maria.salario)
 
 from carro import Carro
@@ -78,3 +78,18 @@ print('Cor:\n', carro_lilas.cor,
 '\nNúmero de rodas:\n', carro_lilas.rodas,
 '\nMarca:\n', carro_lilas.marca)
 
+from conta import Conta
+
+conta_pedro = Conta('Pedro', 2000, 500, 2000)
+
+print(conta_pedro.cliente)
+print(conta_pedro.saldo)
+print(conta_pedro.sacar)
+print(conta_pedro.limite)
+
+print('Nome do cliente:\n', conta_pedro.cliente, 
+'\nSaldo:\n', conta_pedro.saldo,
+'\nValor para sacar:\n', conta_pedro.sacar,
+'\nLimite:\n', conta_pedro.limite)
+
+conta_pedro.saldo
