@@ -746,5 +746,5 @@ for i in range(0, 10):
   arquivo.write('aaa '+ str(i) + '\n')  
 
 arquivo1 = open('arquivo.txt', 'r')
-print(arquivo1)
-type(arquivo1)
+print(arquivo1.read())
+
