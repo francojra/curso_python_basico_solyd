@@ -739,12 +739,16 @@ type(arquivo)
 
 arquivo.write('Programação em Python') # Para escrever dentro do arquivo
 
-for i in range(0, 10):
-  arquivo.write(str(i) + '\n')
-  
-for i in range(0, 10):
-  arquivo.write('aaa '+ str(i) + '\n')  
-
 arquivo1 = open('arquivo.txt', 'r')
 print(arquivo1.read())
 
+### Após escrever no bloco de notas:
+
+for linha in arquivo1:
+  print(linha)
+
+### Para ler arquivos de imagens usase 'b' de bytes e 'r' de read
+
+image = open('logo.png', 'rb')
+print(image)
+print(image.read())
