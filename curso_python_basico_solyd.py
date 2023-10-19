@@ -738,4 +738,13 @@ print(arquivo)
 type(arquivo)
 
 arquivo.write('Programação em Python') # Para escrever dentro do arquivo
-arquivo.read() # Ler o que está dentro do arquivo
+
+for i in range(0, 10):
+  arquivo.write(str(i) + '\n')
+  
+for i in range(0, 10):
+  arquivo.write('aaa '+ str(i) + '\n')  
+
+arquivo1 = open('arquivo.txt', 'r')
+print(arquivo1)
+type(arquivo1)
