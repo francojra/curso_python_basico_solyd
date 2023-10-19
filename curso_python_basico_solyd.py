@@ -716,13 +716,17 @@ if argumentos[1] == 'sub':
 soma(45, 87)
 sub(786, 32)
 
+# Entrada e saída de arquivos -------------------------------------------------------------------------------------------------------------------
 
+open('arquivo.txt') # Função open() e nome do arquivo entre aspas
 
+open('c:\\windows\\arquivo.txt')
 
+### O arquivo citado deve estar no diretório de trabalho, caso não,
+### pode escrever o código adicionando o argumento 'w'.
 
+open('arquivo.txt', 'w') # Abrir um novo arquivo .txt no diretório de trabalho
 
+### O 'w' significa modo 'write'
 
-
-
-
-
+open('arquivo.txt', 'r + w') # 'r + w' significa 'read + write', modo de leitura e escrita
