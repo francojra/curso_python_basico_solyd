@@ -732,3 +732,10 @@ open('arquivo.txt', 'w') # Abrir um novo arquivo .txt no diretório de trabalho
 open('arquivo.txt', 'r +') # 'r + w' significa 'read + write', modo de leitura e escrita
 
 open('arquivo.txt', 'a') # Método de escrita no modo apend
+
+arquivo = open('arquivo.txt', 'w')
+print(arquivo)
+type(arquivo)
+
+arquivo.write('Programação em Python') # Para escrever dentro do arquivo
+arquivo.read() # Ler o que está dentro do arquivo
