@@ -678,6 +678,19 @@ def maior(colecao):
     
 maior([6, 3, 8, 2, 67, 34, 0, 23, 9])
 
+quant = input('Escreva a sua colecao: ')
+
+col = list(quant)
+
+for i in col:
+  print(i)
+  
+def maior_valor(col):
+  resultado = max(col)
+  return resultado
+
+maior_valor(col=[5,3,7,2,76])
+
 ### Adicionar novos objetos a listas
 
 def adicionar_item(nome_lista):
