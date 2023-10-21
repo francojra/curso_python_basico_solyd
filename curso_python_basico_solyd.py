@@ -414,7 +414,7 @@ convidados = ['Letícia', 'Rafaela', 'Pedro', 'Daniel', 'Melissa', 'Cassy']
 contador = 0
 
 for convidado in convidados:
-  contador +=1
+  contador += 1
 
 print(contador)
 print(len(convidados))
@@ -666,6 +666,17 @@ def menor_numero(num1, num2, num3, num4, num5, num6):
   return resultado
 
 menor_numero(9, 4, 6, 3, 7, 5)
+
+### Outra forma de resolver
+
+def maior(colecao):
+  maior_item = colecao[0]
+  for item in colecao:
+    if item > maior_item:
+      maior_item = item
+  return maior_item
+    
+maior([6, 3, 8, 2, 67, 34, 0, 23, 9])
 
 ### Adicionar novos objetos a listas
 
