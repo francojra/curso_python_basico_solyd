@@ -198,6 +198,9 @@ idade = input('Qual a sua idade?')
 peso = input('Qual o seu peso?')
 altura = input('Qual a sua altura?')
 
+### Pode ser necessário converter as strings acima em int ou float,
+### e abaixo não coloca os valores em formato de string (entre aspas).
+
 if idade >= '18'and peso >= '60' and altura >= '1.70':
   print('Esta pessoa é apta para participar do exército.')
 else:
