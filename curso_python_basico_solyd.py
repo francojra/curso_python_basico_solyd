@@ -435,6 +435,11 @@ while i <= int(num_convidados):
 
 print(lista_convidados)
 
+for convidado in lista_convidados:
+  print(convidado)
+  
+print('Haverá ' + str(len(lista_convidados)) + ' convidados para a festa.')
+
 # Tuplas, dicionários e conjuntos ---------------------------------------------------------------------------------------------------------------
 
 ### Listas (list)
