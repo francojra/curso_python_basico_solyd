@@ -421,6 +421,15 @@ print(len(convidados))
 
 for convidado in convidados:
   print(convidado)
+  
+### Outra forma de resolver:
+
+num_convidados = input('Coloque o número de convidados: ')
+
+i = 1 # Começa com convidado nº 1
+while i <= int(num_convidados):
+  nome_convidado = input('Escreva o nome do convidado nº' + str(i) + ': ')
+  i += 1
 
 # Tuplas, dicionários e conjuntos ---------------------------------------------------------------------------------------------------------------
 
