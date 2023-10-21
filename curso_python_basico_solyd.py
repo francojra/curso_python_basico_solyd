@@ -667,7 +667,7 @@ def menor_numero(num1, num2, num3, num4, num5, num6):
 
 menor_numero(9, 4, 6, 3, 7, 5)
 
-### Outra forma de resolver
+### Outras formas de resolver
 
 def maior(colecao):
   maior_item = colecao[0]
@@ -687,6 +687,13 @@ def maior_valor(col):
 
 maior_valor(col=[3, 6, 2, 67, 8, 43])
 maior_valor(col=[45, 2, 3, 1])
+
+def menor_valor(col):
+  resultado = min(col)
+  return resultado
+
+menor_valor(col=[3, 6, 2, 67, 8, 43])
+menor_valor(col=[45, 2, 3, 1])
 
 ### Adicionar novos objetos a listas
 
