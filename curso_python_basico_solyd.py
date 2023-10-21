@@ -425,11 +425,15 @@ for convidado in convidados:
 ### Outra forma de resolver:
 
 num_convidados = input('Coloque o número de convidados: ')
+lista_convidados = []
 
 i = 1 # Começa com convidado nº 1
 while i <= int(num_convidados):
   nome_convidado = input('Escreva o nome do convidado nº' + str(i) + ': ')
+  lista_convidados.append(nome_convidado)
   i += 1
+
+print(lista_convidados)
 
 # Tuplas, dicionários e conjuntos ---------------------------------------------------------------------------------------------------------------
 
