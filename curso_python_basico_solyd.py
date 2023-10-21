@@ -686,6 +686,7 @@ def maior_valor(col):
   return resultado
 
 maior_valor(col=[3, 6, 2, 67, 8, 43])
+maior_valor(col=[45, 2, 3, 1])
 
 ### Adicionar novos objetos a listas
 
