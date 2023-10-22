@@ -110,3 +110,6 @@ print(conta2.cliente.nome)
 print(conta2.cliente.idade)
 print(conta2.cliente.empresa)
 print(conta2.cliente.salario)
+
+conta1.depositar(1000.30)
+conta1.consulta_saldo()
