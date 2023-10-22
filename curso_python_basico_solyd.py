@@ -818,8 +818,11 @@ b = 1200 / 0 # erro de divisão por zero
 try:
   b = 1200 / 0
 except:
-  print("Divisão por zero - Impossível executar")
+  print("Divisão por zero - Impossível executar, tente outro valor")
 
 ### O código acima explica que ao executar algo com erro, este erro apresentará
 ### uma exceção caso ele não funcione, assim o programa pode continuar. Ele
-### não travará no erro.
+### não travará no erro e seguirá na execução dos próximos códigos normalmente.
+
+### Ao tratar a exceção, ela deve estar sempre correta, para não travar em outro erro.
+
