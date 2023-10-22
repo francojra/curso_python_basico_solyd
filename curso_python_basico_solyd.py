@@ -855,3 +855,9 @@ try:
 except Exception as erro:
   print('Aconteceu algum erro.', erro) # Aqui ele irá mostrar na tela qual o
   # erro do código.
+  
+try:
+  open('algum_arquivo_inexistente.txt')
+except Exception as erro:
+  print('Aconteceu algum erro.', erro)
+
