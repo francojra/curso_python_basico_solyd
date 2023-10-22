@@ -801,3 +801,12 @@ for linha in arquivo1:
 image = open('logo.png', 'rb')
 print(image)
 print(image.read())
+
+# Tratamento de erros e exceções ----------------------------------------------------------------------------------------------------------------
+
+### Veja alguns exemplos que podem dar erros no Python e que mensagens são enviadas
+### indicando onde está o erro
+
+escrever strings sem objeto e aspas # sintaxe inválida
+a = 'qualquer string' + 2 # podemos apenas concatenar strings e nao strings + int
+
