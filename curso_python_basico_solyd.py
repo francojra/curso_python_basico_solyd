@@ -847,3 +847,11 @@ except ZeroDivisionError:
   print("Divisão por zero - Impossível executar, tente outro valor")
 except NameError:
   print('Você digitou algo errado no Except.')
+
+### Caso não saiba o tipo de erro
+
+try:
+  fiounbeaogK
+except Exception as erro:
+  print('Aconteceu algum erro.', erro) # Aqui ele irá mostrar na tela qual o
+  # erro do código.
