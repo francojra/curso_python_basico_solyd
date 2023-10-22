@@ -5,8 +5,6 @@ class Cliente:
       self.empresa = empresa
       self.salario = salario
 
-### Aumento no salário:
-
-def ganho(self, aumento):
-    self.salario = salario + aumento # Vai somar o salário com o aumento (ganho)
+  def __str__(self):
+     return "Nome: " + self.nome + "\nIdade: " + str(self.idade) + "\nEmpresa: " + self.empresa + "\nSalário: " + str(self.salario)
 

@@ -81,4 +81,12 @@ print('Cor:\n', carro_lilas.cor,
 from cliente import Cliente
 from conta import Conta
 
-cliente1 = cliente()
+cliente1 = Cliente('Pedro', 30, 'Petrobrás', 7200)
+
+print(cliente1.nome)
+print(cliente1.idade)
+print(cliente1.empresa)
+print(cliente1.salario)
+
+conta_pedro = Conta(cliente1, 5000, 4000, 5000)
+print(conta_pedro.cliente)
