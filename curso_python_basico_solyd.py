@@ -809,4 +809,17 @@ print(image.read())
 
 escrever strings sem objeto e aspas # sintaxe inválida
 a = 'qualquer string' + 2 # podemos apenas concatenar strings e nao strings + int
+b = 1200 / 0 # erro de divisão por zero
 
+### Erros podem travar todo o andamento do programa ou travar o computador
+
+### Uso do try e except - Para tentar executar a função com um possível erro
+
+try:
+  b = 1200 / 0
+except:
+  print("Divisão por zero - Impossível executar")
+
+### O código acima explica que ao executar algo com erro, este erro apresentará
+### uma exceção caso ele não funcione, assim o programa pode continuar. Ele
+### não travará no erro.
