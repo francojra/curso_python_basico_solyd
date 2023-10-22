@@ -853,11 +853,31 @@ except NameError:
 try:
   fiounbeaogK
 except Exception as erro:
-  print('Aconteceu algum erro.', erro) # Aqui ele irá mostrar na tela qual o
+  print('Aconteceu algum erro:', erro) # Aqui ele irá mostrar na tela qual o
   # erro do código.
   
 try:
   open('algum_arquivo_inexistente.txt')
 except Exception as erro:
-  print('Aconteceu algum erro.', erro)
+  print('Aconteceu algum erro:', erro)
 
+### Sempre que for acessar algo externo como sites, músicas, arquivos, etc.,
+### devemos usar o try e except.
+
+import time # Biblioteca de tempo de espera para executar um código
+
+def abre_arquivo():
+  try:
+    arquivo = open('arquivo_inexistente.txt')
+    return True
+  except Exception as erro:
+    print('Aconteceu algum erro:', erro)
+    return False
+  
+while not abre_arquivo():
+  print('Tentando abrir o arquivo')
+  time.sleep(5) # Tenta abrir novamente o arquivo a cada 5 segundos
+  
+arquivo = open('arquivo_correto.txt')
+print('Arquivo aberto')
+  
