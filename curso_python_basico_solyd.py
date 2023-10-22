@@ -826,3 +826,24 @@ except:
 
 ### Ao tratar a exceção, ela deve estar sempre correta, para não travar em outro erro.
 
+### No except também podemos dizer o nome do erro fornecido no Python
+
+try:
+  b = 1200 / 0
+except ZeroDivisionError:
+  print("Divisão por zero - Impossível executar, tente outro valor")
+ 
+### Se no except não estiver tratado com o nome correto do erro, ele
+### retornará um outro erro (NameError:), e o programa trava.
+
+try:
+  kdjbfhigns
+except ZeroDivisionError:
+  print("Divisão por zero - Impossível executar, tente outro valor")
+  
+try:
+  kdjbfhigns
+except ZeroDivisionError:
+  print("Divisão por zero - Impossível executar, tente outro valor")
+except NameError:
+  print('Você digitou algo errado no Except.')
