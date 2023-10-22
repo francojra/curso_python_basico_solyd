@@ -88,5 +88,25 @@ print(cliente1.idade)
 print(cliente1.empresa)
 print(cliente1.salario)
 
-conta_pedro = Conta(cliente1, 5000, 4000, 5000)
-print(conta_pedro.cliente)
+conta1 = Conta(cliente1, 5000, 4000, 5000)
+
+print(conta1.cliente)
+print(conta1.cliente.nome)
+print(conta1.cliente.idade)
+print(conta1.cliente.empresa)
+print(conta1.cliente.salario)
+
+cliente2 = Cliente('Gabriel', 26, 'Google', 9000)
+
+print(cliente2.nome)
+print(cliente2.idade)
+print(cliente2.empresa)
+print(cliente2.salario)
+
+conta2 = Conta(cliente2, 7450, 6000, 7450)
+
+print(conta2.cliente)
+print(conta2.cliente.nome)
+print(conta2.cliente.idade)
+print(conta2.cliente.empresa)
+print(conta2.cliente.salario)
