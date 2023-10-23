@@ -944,7 +944,8 @@ except Exception as erro:
 
 print(texto)
 
-cabecalho = {'user-agent' : 'Windows 12'}
+cabecalho = {'user-agent' : 'Windows 12',
+             'Referer' : 'https://google.com.br'} # Para informar que acessou o site através do Google
 
 try:
   requisi = requests.post('https://putsreq.com/k8NVSIb2awKJNGm46agZ', 
