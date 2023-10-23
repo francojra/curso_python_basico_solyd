@@ -887,3 +887,15 @@ print('Arquivo aberto')
 
 import sys
 import time
+
+### Bibliotecas externas
+
+### Usa-se o gerenciador de pacotes PIP para instalar bibliotecas externas.
+### Essas bibliotecas já vem com códigos prontos para facilitar a execução
+### de projetos.
+
+
+
+
+
+
