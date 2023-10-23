@@ -923,3 +923,16 @@ except Exception as erro:
 
 print(requisicao_g1)
 requisicao_g1.text
+
+### Podemos usar a biblioteca Beautiful soap 4 ou BS4 para extrair partes dos textos de sites
+### pip install bs4
+### Site: https://putsreq.com/
+
+try:
+  requis = requests.get('https://putsreq.com/7mXA7yTXP3O11K8Beauir') 
+  texto = requis.text
+except Exception as erro:
+  print('Ocorreu um erro: ', erro)
+
+print(texto)
+
