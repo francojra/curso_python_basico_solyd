@@ -911,4 +911,15 @@ requisicao_del = requests.delete('https://solyd.com.br')
 
 print(requisicao_get)
 print(type(requisicao_get))
-requisicao_get.status_code
+requisicao_get.status_code # Para páginas de sites inexistentes veríamos o código 404
+requisicao_get.text # Ver o código fonte
+
+### É interessante colocar as requisições no try para evitar erros em grandes projetos
+
+try:
+  requisicao_g1 = requests.get('https://g1.com.br') # Site da Globo
+except Exception as erro:
+  print('Ocorreu um erro: ', erro)
+
+print(requisicao_g1)
+requisicao_g1.text
