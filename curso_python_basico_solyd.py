@@ -934,5 +934,24 @@ try:
 except Exception as erro:
   print('Ocorreu um erro: ', erro)
 
+print(texto) # Pode modificar o texto que tme no site para ver a mudança aqui
+
+try:
+  requisi = requests.post('https://putsreq.com/7CHLKIcvPTPHw1bR92Ip') 
+  texto = requisi.text
+except Exception as erro:
+  print('Ocorreu um erro: ', erro)
+
+print(texto)
+
+cabecalho = {'user-agent' : 'Windows 12'}
+
+try:
+  requisi = requests.post('https://putsreq.com/k8NVSIb2awKJNGm46agZ', 
+                           headers = cabecalho) 
+  texto = requisi.text
+except Exception as erro:
+  print('Ocorreu um erro: ', erro)
+
 print(texto)
 
