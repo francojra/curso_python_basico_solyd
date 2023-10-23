@@ -881,3 +881,5 @@ while not abre_arquivo():
 arquivo = open('arquivo_correto.txt')
 print('Arquivo aberto')
   
+# Bibliotecas, PIP e requisições web ------------------------------------------------------------------------------------------------------------
+
