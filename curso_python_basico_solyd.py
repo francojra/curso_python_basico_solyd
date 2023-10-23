@@ -897,6 +897,6 @@ import time
 ### Uso do request
 
 ### Para instalar o pacote requests, usamos o comando 'pip install requests'
-### no terminal do IDE ou no Prompt de comando.
+### no terminal do IDE ou no Prompt de comando de administrador.
 
 
