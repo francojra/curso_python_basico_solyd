@@ -947,9 +947,16 @@ print(texto)
 cabecalho = {'user-agent' : 'Windows 12',
              'Referer' : 'https://google.com.br'} # Para informar que acessou o site através do Google
 
+meus_cookies = {'Ultima-visita' : '10-10-2020'}
+
+dados = {'user-name' : 'Jeanne',
+         'password' : '25784895d$'}
+
 try:
   requisi = requests.post('https://putsreq.com/k8NVSIb2awKJNGm46agZ', 
-                           headers = cabecalho) 
+                           headers = cabecalho, 
+                           cookies = meus_cookies,
+                           data = dados) 
   texto = requisi.text
 except Exception as erro:
   print('Ocorreu um erro: ', erro)
