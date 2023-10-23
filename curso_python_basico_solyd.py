@@ -883,3 +883,4 @@ print('Arquivo aberto')
   
 # Bibliotecas, PIP e requisições web ------------------------------------------------------------------------------------------------------------
 
+### Instalações de pacotes externos
