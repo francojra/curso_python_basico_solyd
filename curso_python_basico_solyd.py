@@ -883,7 +883,7 @@ print('Arquivo aberto')
   
 # Bibliotecas, PIP e requisições web ------------------------------------------------------------------------------------------------------------
 
-### Instalações de bibliotecas internas do Python - Exemplos
+### Instalações de bibliotecas internas do Python - Exemplos:
 
 import sys
 import time
@@ -894,8 +894,9 @@ import time
 ### Essas bibliotecas já vem com códigos prontos para facilitar a execução
 ### de projetos.
 
+### Uso do request
 
-
-
+### Para instalar o pacote requests, usamos o comando 'pip install requests'
+### no terminal do IDE ou no Prompt de comando.
 
 
