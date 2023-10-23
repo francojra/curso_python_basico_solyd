@@ -903,6 +903,12 @@ import time
 ### Acessa um site > clica em 'Mais ferramentas' e 'Ferramentas do desenvolvedor'
 ### Depois clica em 'Network' e ver as solicitações, status, etc.
 
+import requests
 
+requisicao_get = requests.get('https://solyd.com.br') # Para fazer requisição ao site
+requisicao_post = requests.post('https://solyd.com.br') # Para fazer um post
+requisicao_del = requests.delete('https://solyd.com.br')
 
-
+print(requisicao_get)
+print(type(requisicao_get))
+requisicao_get.status_code
