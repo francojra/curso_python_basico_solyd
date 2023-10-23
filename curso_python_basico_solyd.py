@@ -894,9 +894,15 @@ import time
 ### Essas bibliotecas já vem com códigos prontos para facilitar a execução
 ### de projetos.
 
-### Uso do request
-
+### Uso do requests: para fazer requisições web
 ### Para instalar o pacote requests, usamos o comando 'pip install requests'
 ### no terminal do IDE ou no Prompt de comando de administrador.
+
+### Requisições web serve para acessar sites através do Python.
+
+### Acessa um site > clica em 'Mais ferramentas' e 'Ferramentas do desenvolvedor'
+### Depois clica em 'Network' e ver as solicitações, status, etc.
+
+
 
 
