@@ -963,3 +963,8 @@ except Exception as erro:
 
 print(texto)
 
+# API, JSON e consulta de listas de filmes ------------------------------------------------------------------------------------------------------
+
+### APIs (Application Programming Interfaces) são interfaces em que você se comunica com 
+### outros programas, você passa parâmetros e a API retorna com as informações desses parâmetros.
+### As APIs são feitas com requisições web.
