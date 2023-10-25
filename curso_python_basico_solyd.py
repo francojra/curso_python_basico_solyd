@@ -1011,9 +1011,11 @@ dicionario['Actors']
 dicionario['Director']
 dicionario['imdbRating']
 
+### Informar o filme
+
 def requisicao(titulo): # Função para selecionar um filme e retornar as informações dele através de um dicionário
   try:
-    req = requests.get('https://www.omdbapi.com/?t=black+swan&apikey=aafd493d') 
+    req = requests.get('https://www.omdbapi.com/?t=black+swan&apikey=aafd493d')
     dicionario = json.loads(req.text)
     return dicionario
   except Exception as erro:
@@ -1026,6 +1028,8 @@ def detalhes_filme(filme):
   print('Atores: ', filme['Actors'])
   print('Diretor: ', filme['Director'])
   print('Nota IMDB: ', filme['imdbRating'])
+  print('Poster: ', filme['Poster'])
+  print('Prêmios: ', filme['Awards'])
   
 sair = False
 
@@ -1034,13 +1038,12 @@ while not sair:
   
   if op == 'SAIR':
     sair = True
+    print('Saindo...')
   else:
     filme = requisicao(op)
-    if filme['Response'] == False:
+    if filme['Response'] == 'False':
       print('Filme não encontrado')
     else:
       detalhes_filme(filme)
-
-
 
 
