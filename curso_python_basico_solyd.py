@@ -1038,6 +1038,8 @@ while not sair:
     filme = requisicao(op)
     if filme['Response'] == False:
       print('Filme não encontrado')
+    else:
+      detalhes_filme(filme)
 
 
 
