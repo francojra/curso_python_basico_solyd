@@ -999,3 +999,10 @@ except Exception as erro:
   exit()
 
 print(req.text)
+
+import json
+
+dicionario = json.loads(req.text)
+print(dicionario) # Retorna o json em formato de dicionário
+
+
