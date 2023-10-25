@@ -973,3 +973,11 @@ print(texto)
 ### https://www.omdbapi.com/
 ### Em 'Exemplos' podemos buscar as informações de um determinado filme colocando o nome
 ### do filme no campo de 'Title'. As informações são dadas em formato JSON na aba 'Response'.
+
+### O formato JSON de resposta é como um dicionário do python, onde cada parâmetro apresenta
+### uma informação.
+
+### A API permite automatizar a organização dos dados, sem ele teria que formar uma tabela
+### com todas as informações por linhas e colunas.
+
+
