@@ -980,4 +980,12 @@ print(texto)
 ### A API permite automatizar a organização dos dados, sem ele teria que formar uma tabela
 ### com todas as informações por linhas e colunas.
 
+### Não esquecer de requisitar a chave (key) para visualizar o JSON e sempre colocar
+### o número da chaves após o nome do filme. Exemplo:
+### https://www.omdbapi.com/?t=interstellar&apikey=n_da_chave
 
+import requests
+
+req = requests.get('https://www.omdbapi.com/?i=tt3896198&apikey=aafd493d')
+
+print(req)
