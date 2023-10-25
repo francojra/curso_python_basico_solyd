@@ -1005,4 +1005,6 @@ import json
 dicionario = json.loads(req.text)
 print(dicionario) # Retorna o json em formato de dicionário
 
-
+dicionario['Title']
+dicionario['Year']
+dicionario['Actors']
