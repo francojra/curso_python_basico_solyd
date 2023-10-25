@@ -968,3 +968,6 @@ print(texto)
 ### APIs (Application Programming Interfaces) são interfaces em que você se comunica com 
 ### outros programas, você passa parâmetros e a API retorna com as informações desses parâmetros.
 ### As APIs são feitas com requisições web.
+
+### API de filmes: podemos usar o OMDb API que é uma base de dados aberta sobre filmes.
+### https://www.omdbapi.com/
