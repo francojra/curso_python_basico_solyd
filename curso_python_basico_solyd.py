@@ -971,3 +971,5 @@ print(texto)
 
 ### API de filmes: podemos usar o OMDb API que é uma base de dados aberta sobre filmes.
 ### https://www.omdbapi.com/
+### Em 'Exemplos' podemos buscar as informações de um determinado filme colocando o nome
+### do filme no campo de 'Title'.
