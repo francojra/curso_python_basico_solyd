@@ -1046,4 +1046,8 @@ while not sair:
     else:
       detalhes_filme(filme)
 
+requisicao(titulo='matrix') # Para ver em formato JSON
+requisicao(titulo='titanic')
+requisicao(titulo='blade runner')
+
 
