@@ -1015,7 +1015,7 @@ dicionario['imdbRating']
 
 def requisicao(titulo): # Função para selecionar um filme e retornar as informações dele através de um dicionário
   try:
-    req = requests.get('https://www.omdbapi.com/?t=black+swan&apikey=aafd493d')
+    req = requests.get('https://www.omdbapi.com/?t=' + titulo + '&apikey=aafd493d')
     dicionario = json.loads(req.text)
     return dicionario
   except Exception as erro:
