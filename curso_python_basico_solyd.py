@@ -986,6 +986,16 @@ print(texto)
 
 import requests
 
-req = requests.get('https://www.omdbapi.com/?i=tt3896198&apikey=aafd493d')
+req = requests.get('https://www.omdbapi.com/?t=black+swan&apikey=aafd493d')
 
-print(req)
+print(req.text)
+
+req = None # Caso ocorra um erro, ele nao vai instanciar
+
+try:
+  req = requests.get('https://www.omdbapi.com/?t=black+swan&apikey=aafd493d') 
+except Exception as erro:
+  print('Ocorreu um erro na conexão: ', erro)
+  exit()
+
+print(req.text)
