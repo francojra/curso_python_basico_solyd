@@ -1035,7 +1035,9 @@ while not sair:
   if op == 'SAIR':
     sair = True
   else:
-    pesquisa = requisicao(op)
+    filme = requisicao(op)
+    if filme['Response'] == False:
+      print('Filme não encontrado')
 
 
 
