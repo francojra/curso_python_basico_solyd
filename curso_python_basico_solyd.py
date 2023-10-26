@@ -1071,7 +1071,9 @@ print(dicionario['Search'][0]['Title'])
 import requests
 import json
 
-def existe_filmes(titulo): # Para saber se o filme existe
+### Primeiro ver a quantidade de filmes
+
+def existe_filmes(titulo): 
     quant = 0 # Quantidade de filmes
     try:
         req = requests.get('https://www.omdbapi.com/?s=' + titulo + '&type=movie' +  '&apikey=aafd493d')
@@ -1084,4 +1086,20 @@ def existe_filmes(titulo): # Para saber se o filme existe
         quant = resposta['totalResults'] 
     return quant # Retorna quantidade de filmes
 
+existe_filmes(titulo='matrix')
+existe_filmes(titulo='titanic')
 
+### Depois verifica a lista de filmes
+
+def lista_filmes(titulo): 
+    lista = [] # Lista de filmes
+    try:
+        req = requests.get('https://www.omdbapi.com/?s=' + titulo + '&type=movie' +  '&apikey=aafd493d')
+        resposta = json.loads(req.text) 
+    except:
+        print('Conexão falhou')
+        return lista # Nesse caso, seria lista vazia
+  
+    if resposta['Response'] == 'True':
+        quant = resposta['totalResults'] 
+    return quant # Retorna quantidade de filmes
