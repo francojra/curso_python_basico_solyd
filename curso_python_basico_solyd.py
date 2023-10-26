@@ -1101,9 +1101,9 @@ def lista_filmes(titulo):
             resposta = json.loads(req.text) 
             if resposta['Response'] == 'True':
                  for filme in resposta['Search']:
-                    titulo = filme['Title']
+                    tit = filme['Title']
                     ano = filme['Year']
-                    frase = titulo + ' (' + ano + ')'
+                    frase = tit + ' (' + ano + ')'
                     lista.append(frase)
             else:
                 print('Fim das páginas.')
