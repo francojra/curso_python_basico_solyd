@@ -1052,7 +1052,7 @@ requisicao(titulo='blade runner')
 
 '''
 Criar um programa que encontre todas as páginas JSON de um filme.
-Use-se o parâmetro ?s, o type (para ver o tipo de filme) e page.
+Use-se o parâmetro ?s (search), o type (tipo filme) e page.
 '''
 
 ### Estrutura do JSON
@@ -1117,7 +1117,6 @@ lista_filmes(titulo='star wars')
 lista_filmes(titulo='black swan')        
         
 sair = False
-
 while not sair:
   op = input('Pesquise um filme ou digite SAIR: ')
   if op == 'SAIR':
@@ -1127,4 +1126,5 @@ while not sair:
       print('Filmes encontrados: ', len(lista_de_filmes))
   for filme in lista_de_filmes:
     print(filme)
+
 
