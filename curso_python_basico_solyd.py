@@ -1116,4 +1116,15 @@ lista_filmes(titulo='matrix')
 lista_filmes(titulo='star wars')          
 lista_filmes(titulo='black swan')        
         
-        
+sair = False
+
+while not sair:
+  op = input('Pesquise um filme ou digite SAIR: ')
+  if op == 'SAIR':
+      sair = True
+  else:
+      lista_de_filmes = lista_filmes(op)
+      print('Filmes encontrados: ', len(lista_de_filmes))
+  for filme in lista_de_filmes:
+    print(filme)
+
