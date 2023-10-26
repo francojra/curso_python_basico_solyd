@@ -1093,13 +1093,24 @@ existe_filmes(titulo='titanic')
 
 def lista_filmes(titulo): 
     lista = [] # Lista de filmes
-    try:
-        req = requests.get('https://www.omdbapi.com/?s=' + titulo + '&type=movie' +  '&apikey=aafd493d')
-        resposta = json.loads(req.text) 
-    except:
-        print('Conexão falhou')
-        return lista # Nesse caso, seria lista vazia
-  
-    if resposta['Response'] == 'True':
-        quant = resposta['totalResults'] 
-    return quant # Retorna quantidade de filmes
+    for i in range(1, 101): # No geral vai da página 1 a 100
+        try:
+            req = requests.get('https://www.omdbapi.com/?s=' + titulo + '&type=movie&page=' + str(i) + '&apikey=aafd493d')
+            resposta = json.loads(req.text) 
+            if resposta['Response'] == 'False':
+                break
+            else:
+                for filme in resposta['Search']:
+                    titulo = filme['Title']
+                    ano = filme['Year']
+                    frase = titulo + ' (' + ano + ')'
+                    lista.append(frase)
+        except:
+            print('Conexão falhou')
+    return lista 
+
+        
+        
+        
+        
+        
