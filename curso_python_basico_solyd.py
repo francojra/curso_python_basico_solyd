@@ -1050,4 +1050,9 @@ requisicao(titulo='matrix') # Para ver em formato JSON
 requisicao(titulo='titanic')
 requisicao(titulo='blade runner')
 
+'''
+Criar um programa que encontre todas as páginas JSON de um filme.
+Use-se o parâmetro ?s, o type (para ver o tipo de filme) e page.
+'''
 
+import requests
