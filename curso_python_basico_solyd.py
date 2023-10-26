@@ -1056,3 +1056,13 @@ Use-se o parâmetro ?s, o type (para ver o tipo de filme) e page.
 '''
 
 import requests
+import json
+
+def def requisicao(titulo): 
+  for i in range(1, 101): # Vai sempre da página 1 a 100
+    try:
+    req = requests.get('https://www.omdbapi.com/?s=' + titulo + '&apikey=aafd493d' + '&type=movie&page=1' + str(i))
+    resposta = json.loads(req.text) 
+    except Exception as erro:
+    print('Ocorreu um erro na conexão: ', erro)
+  
