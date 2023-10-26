@@ -1093,18 +1093,21 @@ existe_filmes(titulo='titanic')
 
 def lista_filmes(titulo): 
     lista = [] # Lista de filmes
+    i = 1
     for i in range(1, 101): # No geral vai da página 1 a 100
         try:
+            print('Pesquinsando na página: ', i)
             req = requests.get('https://www.omdbapi.com/?s=' + titulo + '&type=movie&page=' + str(i) + '&apikey=aafd493d')
             resposta = json.loads(req.text) 
-            if resposta['Response'] == 'False':
-                break
-            else:
-                for filme in resposta['Search']:
+            if resposta['Response'] == 'True':
+                 for filme in resposta['Search']:
                     titulo = filme['Title']
                     ano = filme['Year']
                     frase = titulo + ' (' + ano + ')'
                     lista.append(frase)
+            else:
+                print('Fim das páginas.')
+                break
         except:
             print('Conexão falhou')
     return lista 
