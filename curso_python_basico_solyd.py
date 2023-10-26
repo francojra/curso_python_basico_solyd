@@ -1109,8 +1109,8 @@ def lista_filmes(titulo):
             print('Conexão falhou')
     return lista 
 
-        
-        
-        
+lista_filmes(titulo='matrix')        
+lista_filmes(titulo='star wars')          
+lista_filmes(titulo='black swan')        
         
         
