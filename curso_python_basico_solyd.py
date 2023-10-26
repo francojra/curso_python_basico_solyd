@@ -1055,6 +1055,10 @@ Criar um programa que encontre todas as páginas JSON de um filme.
 Use-se o parâmetro ?s, o type (para ver o tipo de filme) e page.
 '''
 
+### Estrutura do JSON
+
+estrutura = {[{}, {}, {}]}
+
 import requests
 import json
 
