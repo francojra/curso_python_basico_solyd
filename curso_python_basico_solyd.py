@@ -1220,11 +1220,21 @@ if padrao:
 else:
   print('Padrão não encontrado.') 
 
-padrao = re.findall(r'gat\w+', string_teste_1) # O + repete o retso da palavra
+padrao = re.findall(r'gat\w+', string_teste_1) # O + repete o resto da palavra,
+# pode ter uma ou mais letra após o gat
 
 if padrao:
   print(padrao)
 else:
   print('Padrão não encontrado.') 
   
+string_teste_1 = 'O gato, a gata, os gatos, as gatas, os gatinhos, os gatões, o gat'
+
+padrao = re.findall(r'gat\w*', string_teste_1) # O * indica que pode ter 0 ou
+# infinitas letras após o gat
+
+if padrao:
+  print(padrao)
+else:
+  print('Padrão não encontrado.') 
   
