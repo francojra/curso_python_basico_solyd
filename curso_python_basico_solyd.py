@@ -1168,3 +1168,33 @@ if padrao:
 else:
   print('Padrão não encontrado.')
 
+padrao = re.search(r'bonito', string_teste)
+
+if padrao:
+  print(padrao.group())
+else:
+  print('Padrão não encontrado.')
+  
+padrao = re.search(r'bonit.', string_teste) # O '.' indica qualquer caracter
+
+if padrao:
+  print(padrao.group())
+else:
+  print('Padrão não encontrado.')
+  
+padrao = re.search(r'gat\w', string_teste) # O '\w' indica caracter do tipo palavra,
+# ou seja, não considera espaço.
+
+if padrao:
+  print(padrao.group())
+else:
+  print('Padrão não encontrado.')  
+
+padrao = re.search(r'\w\w\w\w', string_teste) # Primeiras 4 letras consecutivas de palavra
+
+if padrao:
+  print(padrao.group())
+else:
+  print('Padrão não encontrado.') 
+  
+  
