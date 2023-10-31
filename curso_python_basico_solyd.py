@@ -1254,3 +1254,37 @@ if padrao:
 else:
   print('Padrão não encontrado.')  
 
+### Pesquisando e-mails
+
+### O que tem em um e-mail?
+### 1 - Alguma palavra: \w+
+### 2 - Um @
+### 3 - Mais uma palavra: \w+
+### 4 - Um ponto \.
+### 5 - Mais uma palavra: \w+
+
+s1 = 'snsmroi@gmail.com'
+s2 = '38945701297'
+s3 = 'jneriu@hotmail.com'
+s4 = 'O céu é azul.'
+
+padrao1 = re.findall(r'\w+#\w+\.\w+', s1) # Pede para encontrar estrutura de e-mail
+
+if padrao1:
+  print(padrao1)
+else:
+  print('Padrão não encontrado.') 
+
+padrao2 = re.findall(r'\w+#\w+\.\w+', s2) # Pede para encontrar estrutura de e-mail
+
+if padrao2:
+  print(padrao2)
+else:
+  print('Padrão não encontrado.') 
+  
+padrao3 = re.findall(r'\w+#\w+\.\w+', s3) # Pede para encontrar estrutura de e-mail
+
+if padrao3:
+  print(padrao3)
+else:
+  print('Padrão não encontrado.') 
