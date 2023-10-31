@@ -1197,4 +1197,18 @@ if padrao:
 else:
   print('Padrão não encontrado.') 
   
+padrao = re.search(r'\d', string_teste) # Procura qualquer caracter do tipo número
+
+if padrao:
+  print(padrao.group())
+else:
+  print('Padrão não encontrado.')   
+
+padrao = re.search(r'\D', string_teste) # Procura qualquer caracter que não seja número
+
+if padrao:
+  print(padrao.group())
+else:
+  print('Padrão não encontrado.') 
+  
   
