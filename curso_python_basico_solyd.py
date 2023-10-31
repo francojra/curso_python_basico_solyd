@@ -1137,6 +1137,13 @@ while not sair:
 
 import re
 
+### Pesquisar em uma string por determinado padrão
+
+string = 'O gato é bonito.'
+
+re.search('', string) # É necessário informar dois parâmetros, o primeiro se refere ao
+# padrão que quer procurar e o segunda a string onde está o padrão.
+
 
 
 
