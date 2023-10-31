@@ -1151,3 +1151,20 @@ padrao = re.search(r'b', string_teste) # O r transforma em RAW string ou string 
 print(padrao)
 print(padrao.group())
 
+padrao = re.search(r'g', string_teste)
+print(padrao)
+print(padrao.group())
+
+padrao = re.search(r'ga', string_teste)
+print(padrao)
+print(padrao.group())
+
+padrao = re.search(r'gata', string_teste)
+print(padrao)
+print(padrao.group())
+
+if padrao:
+  print(padrao.group())
+else:
+  print('Padrão não encontrado.')
+
