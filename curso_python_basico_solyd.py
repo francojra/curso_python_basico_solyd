@@ -1295,3 +1295,4 @@ if padrao4:
   print(padrao4)
 else:
   print('Padrão não encontrado.') 
+
