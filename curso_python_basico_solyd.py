@@ -1211,4 +1211,20 @@ if padrao:
 else:
   print('Padrão não encontrado.') 
   
+string_teste_1 = 'O gato, a gata, os gatos, as gatas, os gatinhos, os gatões'
+
+padrao = re.findall(r'gat\w', string_teste_1) # Findall = encontrar tudo
+
+if padrao:
+  print(padrao) # Não usa mais group
+else:
+  print('Padrão não encontrado.') 
+
+padrao = re.findall(r'gat\w+', string_teste_1) # O + repete o retso da palavra
+
+if padrao:
+  print(padrao)
+else:
+  print('Padrão não encontrado.') 
+  
   
