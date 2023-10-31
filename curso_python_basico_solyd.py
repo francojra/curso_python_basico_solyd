@@ -1238,3 +1238,19 @@ if padrao:
 else:
   print('Padrão não encontrado.') 
   
+padrao = re.findall(r'[gat]', string_teste_1) # Pode ter qualquer uma das letras
+# que está dentro do colchetes.
+
+if padrao:
+  print(padrao)
+else:
+  print('Padrão não encontrado.')
+
+padrao = re.findall(r'[gat]+', string_teste_1) # Pode ter qualquer uma das letras
+# que está dentro do colchetes.
+
+if padrao:
+  print(padrao)
+else:
+  print('Padrão não encontrado.')  
+
