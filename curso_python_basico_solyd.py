@@ -1296,3 +1296,6 @@ if padrao4:
 else:
   print('Padrão não encontrado.') 
 
+### Importante: se não colocar o '\.' ele não encontra as palavras após o '.'
+### Muitos e-mail também apresentam traços, pontos, underlines e outros caracteres
+### que precisam ser adicionados nas expressões regulares para não passarem batido.
