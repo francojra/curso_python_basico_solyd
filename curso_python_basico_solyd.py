@@ -1127,4 +1127,20 @@ while not sair:
   for filme in lista_de_filmes:
     print(filme)
 
+# Expressões regulares - Procurando por e-mails
+
+### Todos os e-mails apresentam um padrão como o uso de '@' e '.com'.
+### Da mesma forma, números de telefones também apresentam um padrão
+### com um, dois ou três números iniciais.
+
+### Biblioteca para procurar expressões regulares
+
+import re
+
+
+
+
+
+
+
 
