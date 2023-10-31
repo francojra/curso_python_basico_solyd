@@ -1139,15 +1139,15 @@ import re
 
 ### Pesquisar em uma string por determinado padrão
 
-string = 'O gato é bonito.'
+string_teste = 'O gato é bonito.'
 
-re.search('', string) # É necessário informar dois parâmetros, o primeiro se refere ao
+padrao = re.search('', string_teste) # É necessário informar dois parâmetros, o primeiro se refere ao
 # padrão que quer procurar e o segunda a string onde está o padrão.
 
+print(padrao)
 
-
-
-
-
-
+padrao = re.search(r'b', string_teste) # O r transforma em RAW string ou string crua
+# Na string crua tudo é imprimido, inclusindo espaços e caracteres especiais
+print(padrao)
+print(padrao.group())
 
