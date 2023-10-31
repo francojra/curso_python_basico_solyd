@@ -1299,3 +1299,23 @@ else:
 ### Importante: se não colocar o '\.' ele não encontra as palavras após o '.'
 ### Muitos e-mail também apresentam traços, pontos, underlines e outros caracteres
 ### que precisam ser adicionados nas expressões regulares para não passarem batido.
+
+import requests
+
+requisicao = requests.get('https://www.bbc.com/news')
+
+padrao = re.findall(r'Putin', requisicao.text)
+
+if padrao:
+  print(padrao)
+else:
+  print('Padrão não encontrado.') 
+
+padrao = re.findall(r'Copyright', requisicao.text) # Sempre diferencia maiúsculo de minúsculo
+
+if padrao:
+  print(padrao)
+else:
+  print('Padrão não encontrado.') 
+  
+  
