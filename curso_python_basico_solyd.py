@@ -1268,23 +1268,30 @@ s2 = '38945701297'
 s3 = 'jneriu@hotmail.com'
 s4 = 'O céu é azul.'
 
-padrao1 = re.findall(r'\w+#\w+\.\w+', s1) # Pede para encontrar estrutura de e-mail
+padrao1 = re.findall(r'\w+@\w+\.\w+', s1) # Pede para encontrar estrutura de e-mail
 
 if padrao1:
   print(padrao1)
 else:
   print('Padrão não encontrado.') 
 
-padrao2 = re.findall(r'\w+#\w+\.\w+', s2) # Pede para encontrar estrutura de e-mail
+padrao2 = re.findall(r'\w+@\w+\.\w+', s2) # Pede para encontrar estrutura de e-mail
 
 if padrao2:
   print(padrao2)
 else:
   print('Padrão não encontrado.') 
   
-padrao3 = re.findall(r'\w+#\w+\.\w+', s3) # Pede para encontrar estrutura de e-mail
+padrao3 = re.findall(r'\w+@\w+\.\w+', s3) # Pede para encontrar estrutura de e-mail
 
 if padrao3:
   print(padrao3)
+else:
+  print('Padrão não encontrado.') 
+
+padrao4 = re.findall(r'\w+@\w+\.\w+', s4) # Pede para encontrar estrutura de e-mail
+
+if padrao4:
+  print(padrao4)
 else:
   print('Padrão não encontrado.') 
