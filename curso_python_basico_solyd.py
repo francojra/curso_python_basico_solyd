@@ -1331,6 +1331,23 @@ print(requisicao.text)
 cotacao = json.loads(requisicao.text)
 
 print(cotacao)
-print(cotacao['USDBRL']['code'])
+print(cotacao['USDBRL']['code']) # Necessário especificar a chave USDBRL
 print(cotacao['USDBRL']['codein'])
 print(cotacao['USDBRL']['high'])
+
+
+requisicao1 = requests.get('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL')
+print(requisicao1.text)
+
+cotacao1 = json.loads(requisicao1.text)
+
+print(cotacao1)
+print('Dólar: ',cotacao1['USDBRL']['name']) 
+print('Valor Dólar: ',cotacao1['USDBRL']['high']) 
+print('Euro: ',cotacao1['EURBRL']['name'])
+print('Valor Euro: ',cotacao1['EURBRL']['high']) 
+print('Bitcoin: ',cotacao1['BTCBRL']['name'])
+print('Valor Bitcoin: ',cotacao1['BTCBRL']['high']) 
+
+
+
