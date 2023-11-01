@@ -1360,6 +1360,8 @@ time.sleep(2) # Após 2 segundos faz a nova cotação do dia e horário
 
 # Publicando e pesquisando no Twitter -----------------------------------------------------------------------------------------------------------
 
+### Acessa o portal developer do Twitter, cria um novo app e copia as chaves
+
 API_Key = 'h14lIBbPmiHfzLXcvCjQfCt3H'
 API_Key_Secret = 'vhBOWKDfRx0DGtEs94KqG51le811vc9jy2S2hhGjm9pmGnqbGl'
 
@@ -1367,3 +1369,5 @@ Bearer_Token = 'AAAAAAAAAAAAAAAAAAAAAMxAqwEAAAAASERV%2Fq9AyrWoPFl%2FBcdBdsVHK0Y%
 
 Access_Token = '1261501342176198656-YfH0ketE5VDtJTcRDzlpoxU9JV7W7P'
 Access_Token_Secret = '8dDieZHEzlJnfAJ4ITFJY96QnGEdOWxGQyAbkTX2shsmr'
+
+import oauth2
