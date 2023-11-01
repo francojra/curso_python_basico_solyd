@@ -1325,10 +1325,12 @@ else:
 import requests
 import json
 
-requisicao = requests.get('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL')
-
+requisicao = requests.get('http://economia.awesomeapi.com.br/json/last/USD-BRL')
 print(requisicao.text)
 
 cotacao = json.loads(requisicao.text)
 
 print(cotacao)
+print(cotacao['USDBRL']['code'])
+print(cotacao['USDBRL']['codein'])
+print(cotacao['USDBRL']['high'])
