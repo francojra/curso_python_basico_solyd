@@ -1340,8 +1340,12 @@ requisicao1 = requests.get('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-
 print(requisicao1.text)
 
 cotacao1 = json.loads(requisicao1.text)
-
 print(cotacao1)
+
+import time
+import datetime
+
+print('Cotação', ' - ', 'Dia: ', datetime.datetime.now())
 print('Dólar: ',cotacao1['USDBRL']['name']) 
 print('Valor Dólar: ',cotacao1['USDBRL']['high']) 
 print('Euro: ',cotacao1['EURBRL']['name'])
