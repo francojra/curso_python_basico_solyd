@@ -1127,7 +1127,7 @@ while not sair:
   for filme in lista_de_filmes:
     print(filme)
 
-# Expressões regulares - Procurando por e-mails
+# Expressões regulares - Procurando por e-mails -------------------------------------------------------------------------------------------------
 
 ### Todos os e-mails apresentam um padrão como o uso de '@' e '.com'.
 ### Da mesma forma, números de telefones também apresentam um padrão
@@ -1318,7 +1318,7 @@ if padrao:
 else:
   print('Padrão não encontrado.') 
   
-# Consultando o clima e a cotação do dólar
+# Consultando o clima e a cotação do dólar ------------------------------------------------------------------------------------------------------
 
 ### Site: https://docs.awesomeapi.com.br/api-de-moedas
 
@@ -1358,4 +1358,14 @@ print('Bitcoin: ',cotacao1['BTCBRL']['name'])
 print('Valor Bitcoin: ',cotacao1['BTCBRL']['high']) 
 time.sleep(2) # Após 2 segundos faz a nova cotação do dia e horário
 
+# Publicando e pesquisando no Twitter -----------------------------------------------------------------------------------------------------------
 
+API_Key = 'h14lIBbPmiHfzLXcvCjQfCt3H'
+
+API_Key_Secret = 'vhBOWKDfRx0DGtEs94KqG51le811vc9jy2S2hhGjm9pmGnqbGl'
+
+Bearer_Token = 'AAAAAAAAAAAAAAAAAAAAAMxAqwEAAAAASERV%2Fq9AyrWoPFl%2FBcdBdsVHK0Y%3DkM65g4WPZdkkabd3nEyiF6bXPXtSPxr5DCogtshL0CizVdVtGS'
+
+Access_Token = '1261501342176198656-YfH0ketE5VDtJTcRDzlpoxU9JV7W7P'
+
+Access_Token_Secret = '8dDieZHEzlJnfAJ4ITFJY96QnGEdOWxGQyAbkTX2shsmr'
