@@ -1318,4 +1318,17 @@ if padrao:
 else:
   print('Padrão não encontrado.') 
   
-  
+# Consultando o clima e a cotação do dólar
+
+### Site: https://docs.awesomeapi.com.br/api-de-moedas
+
+import requests
+import json
+
+requisicao = requests.get('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL')
+
+print(requisicao.text)
+
+cotacao = json.loads(requisicao.text)
+
+print(cotacao)
