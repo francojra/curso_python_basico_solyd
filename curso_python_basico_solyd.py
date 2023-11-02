@@ -1362,13 +1362,13 @@ time.sleep(2) # Após 2 segundos faz a nova cotação do dia e horário
 
 ### Acessa o portal developer do Twitter, cria um novo app e copia as chaves
 
-API_Key = 'WLRfs8flYLyRp7M2OJUxR69PC'
-API_Key_Secret = 'YqFHHrSk0Axas4b985xYrM1PY00yCg2ddvn78ZF6SC7DRmCVbK'
+API_Key = 
+API_Key_Secret = 
 
-Bearer_Token = 'AAAAAAAAAAAAAAAAAAAAAMxAqwEAAAAAxjHJZRlWY2xDg2%2FbgaC71%2BKIIsU%3DJ2vLUCq8VzdO0aFQx1BoJxjoWzC3WRKRntFyxtds5m0272I6ZH'
+Bearer_Token = 
 
-Access_Token = '1261501342176198656-GjjA9E1QFkuS6OgLqMXMxWMeMlBrHc'
-Access_Token_Secret = 'aaDEN1B8jGi4Ujd2pdmVOT7D9dU5gx5TeVPdDb07LB7dF'
+Access_Token = 
+Access_Token_Secret = 
 
 import oauth2
 import requests
