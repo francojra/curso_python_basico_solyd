@@ -1362,13 +1362,13 @@ time.sleep(2) # Após 2 segundos faz a nova cotação do dia e horário
 
 ### Acessa o portal developer do Twitter, cria um novo app e copia as chaves
 
-API_Key = 'h14lIBbPmiHfzLXcvCjQfCt3H'
-API_Key_Secret = 'vhBOWKDfRx0DGtEs94KqG51le811vc9jy2S2hhGjm9pmGnqbGl'
+API_Key = 'WLRfs8flYLyRp7M2OJUxR69PC'
+API_Key_Secret = 'YqFHHrSk0Axas4b985xYrM1PY00yCg2ddvn78ZF6SC7DRmCVbK'
 
-Bearer_Token = 'AAAAAAAAAAAAAAAAAAAAAMxAqwEAAAAASERV%2Fq9AyrWoPFl%2FBcdBdsVHK0Y%3DkM65g4WPZdkkabd3nEyiF6bXPXtSPxr5DCogtshL0CizVdVtGS'
+Bearer_Token = 'AAAAAAAAAAAAAAAAAAAAAMxAqwEAAAAAxjHJZRlWY2xDg2%2FbgaC71%2BKIIsU%3DJ2vLUCq8VzdO0aFQx1BoJxjoWzC3WRKRntFyxtds5m0272I6ZH'
 
-Access_Token = '1261501342176198656-YfH0ketE5VDtJTcRDzlpoxU9JV7W7P'
-Access_Token_Secret = '8dDieZHEzlJnfAJ4ITFJY96QnGEdOWxGQyAbkTX2shsmr'
+Access_Token = '1261501342176198656-GjjA9E1QFkuS6OgLqMXMxWMeMlBrHc'
+Access_Token_Secret = 'aaDEN1B8jGi4Ujd2pdmVOT7D9dU5gx5TeVPdDb07LB7dF'
 
 import oauth2
 import requests
@@ -1378,10 +1378,15 @@ consumer = oauth2.Consumer(API_Key, API_Key_Secret)
 token = oauth2.Token(Access_Token, Access_Token_Secret)
 cliente = oauth2.Client(consumer, token)
 
-requisicao = cliente.request('https://api.twitter.com/2/search/tweets.json?q=brasil')
+requisicao = cliente.request('https://api.twitter.com/2/tweets/search/recent?query=from:twitterdev')
 
-print(requisicao)
+decodificar = requisicao[1].decode()
 
-requisicao_objeto = json.loads(requisicao)
+print(type(requisicao))
 
+objeto = json.loads(decodificar)
 
+print(type(objeto))
+print(objeto)
+
+pprint.pprint(objeto)
