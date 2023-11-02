@@ -1371,3 +1371,7 @@ Access_Token = '1261501342176198656-YfH0ketE5VDtJTcRDzlpoxU9JV7W7P'
 Access_Token_Secret = '8dDieZHEzlJnfAJ4ITFJY96QnGEdOWxGQyAbkTX2shsmr'
 
 import oauth2
+
+consumer = oauth2.Consumer(API_Key, API_Key_Secret)
+token = oauth2.Token(Access_Token, Access_Token_Secret)
+cliente = oauth2.Client(consumer, token)
