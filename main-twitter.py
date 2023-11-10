@@ -23,3 +23,9 @@ for i in range(1, 50): # Posta a frase abaixo de 1 até 50 vezes
 resp = twitter.tweet('Vamos testar nossa lib novamente')
 
 print(resp) # Para ver detalhes da postagem e saber se deu certo
+
+pesquisa = twitter.search('Solyd', 'pt') # Informa o que quer pesquisar e em qual língua
+
+for resultado in pesquisa:
+  print(resultado['text']) # Irá imprimir apenas o texto
+  print(resultado['user']['screen_name']) # Imprime o nome do usuário
